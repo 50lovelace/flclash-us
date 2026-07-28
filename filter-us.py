@@ -1,130 +1,122 @@
 import yaml
 import datetime
 import requests
+import re
 
 
-# =========================
+# ===============================
 # 配置
-# =========================
+# ===============================
 
-# 来源仓库
-SOURCE_URL = (
-    "https://raw.githubusercontent.com/"
-    "50lovelace/flclash-nodes/main/flclash.yaml"
-)
+SOURCE_URL = "https://raw.githubusercontent.com/50lovelace/flclash-nodes/main/flclash.yaml"
 
-
-# 输出文件
 OUTPUT_FILE = "flclash-us.yaml"
 
 INFO_FILE = "update-info.txt"
 
 
 
-# =========================
-# 美国关键词
-# =========================
+# ===============================
+# 美国识别关键词
+# ===============================
 
 US_KEYWORDS = [
-
+    "🇺🇸",
+    "美国",
     "US",
     "USA",
-    "United States",
-    "America",
-    "美国",
-
-    "Los Angeles",
-    "LA",
-    "San Jose",
-    "San Francisco",
-    "Seattle",
-
-    "New York",
-    "Chicago",
-    "Dallas",
-    "Miami"
-
+    "America"
 ]
 
 
-
-# =========================
+# ===============================
 # 风险关键词
-# =========================
+# ===============================
 
 BLOCK_KEYWORDS = [
-
-    "bot",
+    "危险",
+    "risk",
     "test",
     "trial",
-
+    "bot",
     "expired",
-    "expire",
-
     "过期",
     "剩余",
-
     "官网",
     "客服",
-    "群",
     "邀请",
-
-    "免费",
-    "公益"
-
+    "群"
 ]
 
 
 
-# =========================
+# ===============================
 # 判断美国节点
-# =========================
+# ===============================
 
-def is_us_node(name):
+def is_us(name):
 
     name = str(name)
 
 
-    # 风险过滤
-
-    for word in BLOCK_KEYWORDS:
-
-        if word.lower() in name.lower():
-
+    for k in BLOCK_KEYWORDS:
+        if k.lower() in name.lower():
             return False
 
 
-
-    # 美国判断
-
-    for word in US_KEYWORDS:
-
-        if word.lower() in name.lower():
-
+    for k in US_KEYWORDS:
+        if k.lower() in name.lower():
             return True
-
 
 
     return False
 
 
 
+# ===============================
+# 提取速度
+# ===============================
 
-# =========================
-# 下载节点
-# =========================
+def get_speed(name):
 
-print("正在下载节点...")
+    name = str(name)
+
+    # 匹配：
+    # 5.42MB/s
+    # 4.71 MB/s
+
+    result = re.search(
+        r"([\d\.]+)\s*MB/s",
+        name
+    )
 
 
-response = requests.get(
+    if result:
+
+        return float(result.group(1))
+
+
+    # 没速度默认最低
+
+    return 0
+
+
+
+# ===============================
+# 下载源节点
+# ===============================
+
+print("下载节点文件...")
+
+
+r = requests.get(
     SOURCE_URL,
     timeout=30
 )
 
 
 data = yaml.safe_load(
-    response.text
+    r.text
 )
 
 
@@ -137,125 +129,106 @@ nodes = data.get(
 
 
 print(
-    "原始节点数量:",
+    "总节点:",
     len(nodes)
 )
 
 
 
-# =========================
-# 筛选美国节点
-# =========================
+# ===============================
+# 筛选美国
+# ===============================
 
-us_nodes = []
+
+us_nodes=[]
 
 
 for node in nodes:
 
-
-    name = node.get(
+    name=node.get(
         "name",
         ""
     )
 
 
-    if is_us_node(name):
+    if is_us(name):
 
         us_nodes.append(node)
 
 
 
 print(
-    "美国节点数量:",
+    "美国有效节点:",
     len(us_nodes)
 )
 
 
 
+# ===============================
+# 按速度排序
+# ===============================
 
-# =========================
-# 生成配置
-# =========================
+us_nodes.sort(
+    key=lambda x:get_speed(
+        x.get("name","")
+    ),
+    reverse=True
+)
 
 
-node_names = [
 
-    node["name"]
+# ===============================
+# 前50高速节点测速
+# ===============================
 
-    for node in us_nodes
+fast_nodes = us_nodes[:50]
 
+
+
+names=[
+    x["name"]
+    for x in fast_nodes
 ]
 
 
 
-output = {
+# ===============================
+# 输出 Clash配置
+# ===============================
+
+output={
+
+    "proxies":fast_nodes,
 
 
-    "proxies": us_nodes,
-
-
-
-    "proxy-groups": [
-
+    "proxy-groups":[
 
         {
 
-            "name":
-            "🇺🇸 美国自动",
+            "name":"🇺🇸 美国自动",
 
+            "type":"url-test",
 
-            "type":
-            "url-test",
+            "url":"https://www.gstatic.com/generate_204",
 
+            "interval":300,
 
-            # 测速地址
+            "tolerance":50,
 
-            "url":
-            "http://www.gstatic.com/generate_204",
-
-
-            # 5分钟检测一次
-
-            "interval":
-            300,
-
-
-            # 延迟差距50ms以内不切换
-
-            "tolerance":
-            50,
-
-
-            "proxies":
-            node_names
+            "proxies":names
 
         },
 
 
-
         {
 
+            "name":"🇺🇸 美国手动",
 
-            "name":
-            "美国节点手动",
+            "type":"select",
 
-
-            "type":
-            "select",
-
-
-            "proxies":
-
-            [
-
+            "proxies":[
                 "🇺🇸 美国自动"
-
-            ]
-
-            +
-
-            node_names
-
+            ]+names
 
         }
 
@@ -265,108 +238,74 @@ output = {
 
 
 
-# =========================
-# 写入yaml
-# =========================
-
-
 with open(
-
     OUTPUT_FILE,
-
     "w",
-
     encoding="utf-8"
-
 ) as f:
 
 
     yaml.dump(
-
         output,
-
         f,
-
         allow_unicode=True,
-
         sort_keys=False
-
     )
 
 
 
-
-# =========================
+# ===============================
 # 更新时间
-# =========================
+# ===============================
 
-
-now = datetime.datetime.now().strftime(
-
+now=datetime.datetime.now().strftime(
     "%Y-%m-%d %H:%M:%S"
-
 )
 
 
 
-info = f"""
-
-FlClash 美国自动节点订阅
-
+info=f"""
+FlClash 美国节点订阅
 
 更新时间:
-
 {now}
 
 
+筛选结果:
 
-原始节点:
-
+源节点:
 {len(nodes)}
 
-
-
 美国节点:
-
 {len(us_nodes)}
 
+高速节点:
+{len(fast_nodes)}
 
 
-功能:
+规则:
 
-✓ 美国节点自动筛选
-
-✓ 风险关键词过滤
-
-✓ 延迟自动测试
-
-✓ 自动选择最快节点
-
+✓ 美国节点
+✓ 删除危险节点
+✓ 删除测试节点
+✓ 按速度排序
+✓ 自动测速选择最快
 
 
 来源:
-
-flclash-nodes
+50lovelace/flclash-nodes
 
 """
 
 
-
 with open(
-
     INFO_FILE,
-
     "w",
-
     encoding="utf-8"
-
 ) as f:
-
 
     f.write(info)
 
 
 
-print(
-    "生成完成"
-)
+print("完成")
