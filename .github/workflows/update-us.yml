@@ -1,0 +1,37 @@
+name: 更新美国节点
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-us:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 获取代码
+        uses: actions/checkout@v4
+
+      - name: 下载原始节点
+        run: |
+          curl -L https://raw.githubusercontent.com/50lovelace/flclash-nodes/main/flclash.yaml -o source.yaml
+
+      - name: 安装Python依赖
+        run: |
+          pip install pyyaml
+
+      - name: 筛选美国节点
+        run: |
+          python filter-us.py
+
+      - name: 保存更新
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "自动更新美国节点" || exit 0
+          git push
