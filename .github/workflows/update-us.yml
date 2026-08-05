@@ -18,6 +18,8 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    env:
+      ABUSEIPDB_API_KEY: ${{ secrets.ABUSEIPDB_API_KEY }}
 
     steps:
 
