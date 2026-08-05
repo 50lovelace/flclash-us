@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-05 16:13:52",
+  "risk_threshold": 25,
+  "passed_count": 412,
+  "rejected_count": 3,
+  "unresolved_count": 0,
+  "query_failed_count": 0,
+  "rejected_nodes": [
+    {
+      "name": "🇺🇸美国US370 测速未知危险 TG@jcnode",
+      "server": "178.130.47.21",
+      "ip": "178.130.47.21",
+      "score": 100,
+      "country_code": "US",
+      "usage_type": "Data Center/Web Hosting/Transit",
+      "isp": "GLOBAL CONNECTIVITY SOLUTIONS LLP"
+    },
+    {
+      "name": "🇺🇸美国US422 测速未知危险 TG@jcnode",
+      "server": "147.45.60.139",
+      "ip": "147.45.60.139",
+      "score": 65,
+      "country_code": "US",
+      "usage_type": "Data Center/Web Hosting/Transit",
+      "isp": "GLOBAL CONNECTIVITY SOLUTIONS LLP"
+    },
+    {
+      "name": "🇺🇸美国US427 测速未知危险 TG@jcnode",
+      "server": "69.55.49.177",
+      "ip": "69.55.49.177",
+      "score": 64,
+      "country_code": "US",
+      "usage_type": "Data Center/Web Hosting/Transit",
+      "isp": "DigitalOcean, LLC"
+    }
+  ],
+  "unresolved_nodes": [],
+  "query_failed_nodes": []
+}

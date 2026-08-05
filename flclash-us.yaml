@@ -3531,10 +3531,6 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- type: socks5
-  server: 178.130.47.21
-  port: 1082
-  name: 🇺🇸美国US370 测速未知危险 TG@jcnode
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: TunService
@@ -4137,10 +4133,6 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- type: socks5
-  server: 147.45.60.139
-  port: 1082
-  name: 🇺🇸美国US422 测速未知危险 TG@jcnode
 - name: 🇺🇸美国US423 测速未知危险 TG@jcnode
   password: 'null'
   port: 9002
@@ -4181,10 +4173,6 @@ proxies:
       Host: usa_multi.mygoldiran.com
   udp: true
   name: 🇺🇸美国US426 测速未知中性 TG@jcnode
-- type: socks5
-  server: 69.55.49.177
-  port: 38182
-  name: 🇺🇸美国US427 测速未知危险 TG@jcnode
 - type: vless
   server: 88.218.44.4
   port: 993
@@ -4618,7 +4606,6 @@ proxy-groups:
   - 🇺🇸美国US364 测速未知中性 TG@jcnode
   - 🇺🇸美国US368 测速未知中性 TG@jcnode
   - 🇺🇸美国US369 测速未知危险 TG@jcnode
-  - 🇺🇸美国US370 测速未知危险 TG@jcnode
   - 🇺🇸美国US371 测速未知中性 TG@jcnode
   - 🇺🇸美国US372 测速未知中性 TG@jcnode
   - 🇺🇸美国US373 测速未知危险 TG@jcnode
@@ -4669,11 +4656,9 @@ proxy-groups:
   - 🇺🇸美国US419 测速未知危险 TG@jcnode
   - 🇺🇸美国US420 测速未知危险 TG@jcnode
   - 🇺🇸美国US421 测速未知危险 TG@jcnode
-  - 🇺🇸美国US422 测速未知危险 TG@jcnode
   - 🇺🇸美国US423 测速未知危险 TG@jcnode
   - 🇺🇸美国US424 测速未知中性 TG@jcnode
   - 🇺🇸美国US426 测速未知中性 TG@jcnode
-  - 🇺🇸美国US427 测速未知危险 TG@jcnode
   - 🇺🇸美国US428 测速未知中性 TG@jcnode
   - 🇺🇸美国US429 测速未知中性 TG@jcnode
   - 🇺🇸美国US430 测速未知危险 TG@jcnode
@@ -5039,7 +5024,6 @@ proxy-groups:
   - 🇺🇸美国US364 测速未知中性 TG@jcnode
   - 🇺🇸美国US368 测速未知中性 TG@jcnode
   - 🇺🇸美国US369 测速未知危险 TG@jcnode
-  - 🇺🇸美国US370 测速未知危险 TG@jcnode
   - 🇺🇸美国US371 测速未知中性 TG@jcnode
   - 🇺🇸美国US372 测速未知中性 TG@jcnode
   - 🇺🇸美国US373 测速未知危险 TG@jcnode
@@ -5090,11 +5074,9 @@ proxy-groups:
   - 🇺🇸美国US419 测速未知危险 TG@jcnode
   - 🇺🇸美国US420 测速未知危险 TG@jcnode
   - 🇺🇸美国US421 测速未知危险 TG@jcnode
-  - 🇺🇸美国US422 测速未知危险 TG@jcnode
   - 🇺🇸美国US423 测速未知危险 TG@jcnode
   - 🇺🇸美国US424 测速未知中性 TG@jcnode
   - 🇺🇸美国US426 测速未知中性 TG@jcnode
-  - 🇺🇸美国US427 测速未知危险 TG@jcnode
   - 🇺🇸美国US428 测速未知中性 TG@jcnode
   - 🇺🇸美国US429 测速未知中性 TG@jcnode
   - 🇺🇸美国US430 测速未知危险 TG@jcnode
