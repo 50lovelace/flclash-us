@@ -216,6 +216,16 @@ output = {
 
     "rules":[
 
+        # 本机和局域网直连
+       "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve",
+       "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve",
+       "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve",
+       "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve",
+
+        # 中国大陆 IP 直连
+        "GEOIP,CN,DIRECT",
+
+        # 其他流量走美国代理
         "MATCH,☁️ 代理选择"
 
     ]
