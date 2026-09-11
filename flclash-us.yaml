@@ -1284,4 +1284,9 @@ proxy-groups:
   - 🇺🇸美国US171 测速未知危险 TG@jcnode
   - 🇺🇸美国US182 测速未知中性 TG@jcnode
 rules:
+- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- GEOIP,CN,DIRECT
 - MATCH,☁️ 代理选择
