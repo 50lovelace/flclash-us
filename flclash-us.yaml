@@ -5,842 +5,359 @@ mode: Rule
 log-level: info
 unified-delay: true
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: random
-  encryption: none
-  name: 🇺🇸美国US001 3.3MB/s TG@jcnode
-  network: xhttp
-  port: 2053
-  server: sz.770886.xyz
-  servername: sz.770886.xyz
+- name: 🇺🇸美国US0006 2.24MB/s中性 TG@jcnode
+  network: ws
+  port: 443
+  server: 172.64.156.156
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
   tls: true
   type: vless
-  udp: true
-  uuid: 63331bb4-5666-413b-eabc-ce5d7d461ede
-  xhttp-opts:
-    host: sz.770886.xyz
-    mode: stream-up
-    path: /api
-  packet-encoding: xudp
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸美国US002 2.37MB/s TG@jcnode
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
-    mode: tls
-  port: 2377
-  server: 134.195.101.117
-  type: ss
-  udp: true
-- name: 🇺🇸美国US003 2.27MB/s TG@jcnode
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇺🇸美国US0008 2.19MB/s TG@jcnode
+  network: ws
+  port: 443
+  server: v4.cloudflare.19931110.xyz
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- type: vless
+  server: 172.66.137.125
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0009 2.19MB/s纯净 TG@jcnode
+- name: 🇺🇸美国US0010 2.18MB/s纯净 TG@jcnode
+  network: ws
+  port: 443
+  server: avido.cf.3666888.xyz
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- type: vless
+  server: 172.66.2.7
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0013 2.13MB/s中性 TG@jcnode
+- name: 🇺🇸美国US0015 2.12MB/s TG@jcnode
+  network: ws
+  port: 443
+  server: 172.64.155.159
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- type: vless
+  server: 172.64.144.125
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0016 2.11MB/s TG@jcnode
+- type: vless
+  server: 172.64.229.51
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0019 2.08MB/s中性 TG@jcnode
+- name: 🇺🇸美国US0020 2.08MB/s中性 TG@jcnode
+  network: ws
+  port: 443
+  server: 172.64.152.94
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- type: vless
+  server: 172.64.153.39
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0021 2.05MB/s中性 TG@jcnode
+- type: vless
+  server: 172.64.153.3
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0023 2.05MB/s中性 TG@jcnode
+- type: vless
+  server: 172.66.140.37
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0024 2.01MB/s纯净 TG@jcnode
+- type: vless
+  server: 172.66.0.97
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0025 2.01MB/s中性 TG@jcnode
+- name: 🇺🇸美国US0027 2MB/s纯净 TG@jcnode
   network: ws
   port: 443
   server: store.ubi.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
   tls: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US004 2.22MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: homecare.stryker.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
     path: /?ed=2560
 - type: vless
-  server: 104.17.159.206
+  server: 172.66.208.18
   port: 443
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   encryption: none
   tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US005 2.22MB/s纯净 TG@jcnode
-- type: vless
-  server: 198.41.209.140
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US006 2.22MB/s TG@jcnode
-- name: 🇺🇸美国US007 2.22MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: ln.edu.hk
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- type: vless
-  server: 104.17.115.212
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US008 2.21MB/s TG@jcnode
-- name: 🇺🇸美国US009 2.21MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: openai.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: 🇺🇸美国US010 2.21MB/s TG@jcnode
-  network: grpc
-  port: 443
-  server: 178.236.254.65
-  servername: assets-us.pleiades.codes
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  packet-encoding: xudp
-- name: 🇺🇸美国US011 2.19MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: 162.159.60.59
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- type: vless
-  server: 104.17.144.159
-  port: 8443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US015 2.15MB/s TG@jcnode
-- name: 🇺🇸美国US017 2.15MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: 172.64.144.250
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- type: vless
-  server: 104.17.166.235
-  port: 8443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US019 2.13MB/s纯净 TG@jcnode
-- name: 🇺🇸美国US020 2.12MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: www.sage.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US021 2.12MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: www.leics.police.uk
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- type: vless
-  server: 104.17.150.102
-  port: 8443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US022 2.12MB/s TG@jcnode
-- name: 🇺🇸美国US024 2.11MB/s中性 TG@jcnode
-  network: ws
-  port: 443
-  server: glassdoor.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US026 2.11MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: www.affirm.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US027 2.11MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: serviceshub.samsclub.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US029 2.09MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: cookiebot.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US030 2.09MB/s TG@jcnode
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- type: vless
-  server: 104.16.248.151
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US032 2.09MB/s TG@jcnode
-- name: 🇺🇸美国US035 2.06MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- type: vless
-  server: 198.41.209.140
-  port: 8443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US036 2.04MB/s TG@jcnode
-- name: 🇺🇸美国US037 2.03MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: bluehost.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US039 2.03MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: 172.64.144.224
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US043 1.99MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: www.broadcom.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- type: vless
-  server: 104.17.191.23
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US044 1.99MB/s TG@jcnode
-- type: vless
-  server: 172.64.229.169
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US045 1.99MB/s TG@jcnode
-- name: 🇺🇸美国US046 1.99MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: www.ox.ac.uk
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- type: vless
-  server: 172.64.144.116
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US048 1.98MB/s TG@jcnode
-- name: 🇺🇸美国US049 1.98MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US051 1.95MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US052 1.95MB/s危险 TG@jcnode
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0030 1.96MB/s TG@jcnode
+- name: 🇺🇸美国US0032 1.95MB/s TG@jcnode
   password: ''
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸美国US053 1.94MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: 172.64.229.7
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US054 1.94MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: ringcentral.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- type: vless
-  server: 104.17.150.102
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US055 1.94MB/s TG@jcnode
-- name: 🇺🇸美国US056 1.93MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: www.decathlon.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US057 1.93MB/s中性 TG@jcnode
-  network: ws
-  port: 443
-  server: www.cnae.top
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US058 1.92MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: woodsbagot.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US059 1.9MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  sni: 138.199.35.204
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US060 1.89MB/s危险 TG@jcnode
-  password: null
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸美国US061 1.88MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: www.asda.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US062 1.88MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: cdn.cf.3666888.xyz
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- type: vless
-  server: 104.17.149.140
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US064 1.86MB/s TG@jcnode
-- name: 🇺🇸美国US065 1.85MB/s危险 TG@jcnode
-  password: ''
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸美国US068 1.81MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US069 1.8MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸美国US070 1.8MB/s危险 TG@jcnode
-  password: 'null'
   port: 9002
   server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 🇺🇸美国US071 1.8MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
   udp: true
-  username: 'null'
-- name: 🇺🇸美国US073 1.78MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US074 1.77MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US075 1.77MB/s危险 TG@jcnode
-  password: ''
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
   username: ''
-- name: 🇺🇸美国US076 1.77MB/s危险 TG@jcnode
+- name: 🇺🇸美国US0033 1.95MB/s TG@jcnode
   password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸美国US077 1.77MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 🇺🇸美国US081 1.72MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US082 1.72MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US083 1.72MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US084 1.71MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US085 1.71MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US086 1.71MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 🇺🇸美国US087 1.71MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US088 1.71MB/s危险 TG@jcnode
-  password: ''
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸美国US089 1.71MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: cloudflare.dev
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US090 1.7MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US091 1.69MB/s TG@jcnode
-  network: ws
-  port: 8443
-  server: 216.234.140.7
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US092 1.69MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸美国US093 1.69MB/s危险 TG@jcnode
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸美国US095 1.69MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- type: vless
-  server: 104.17.17.105
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US096 1.68MB/s TG@jcnode
-- name: 🇺🇸美国US097 1.68MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sni: 138.199.35.198
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 🇺🇸美国US098 1.68MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US099 1.68MB/s危险 TG@jcnode
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸美国US100 1.68MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sni: 138.199.35.198
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US102 1.68MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 🇺🇸美国US103 1.68MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸美国US104 1.68MB/s危险 TG@jcnode
-  password: null
   port: 9002
   server: 138.199.35.201
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸美国US105 1.68MB/s危险 TG@jcnode
+- type: vless
+  server: 172.66.215.13
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0034 1.95MB/s中性 TG@jcnode
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸美国US0039 1.94MB/s纯净 TG@jcnode
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 566e98ad-4a56-4c1d-9dbc-83987079731b
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /ws
+  packet-encoding: xudp
+- name: 🇺🇸美国US0042 1.92MB/s中性 TG@jcnode
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 167.82.76.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---us--s---mitivpn-11.global.ssl.fastly.net
+    path: '@mehrosaboran'
+  servername: ssl.fastly.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US0043 1.92MB/s纯净 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: ''
+  server: 193.239.179.15
+  servername: worldoftanks.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: df08fd27-d7c2-4cd2-8a79-a32287682a79
+  packet-encoding: xudp
+- name: 🇺🇸美国US0044 1.9MB/s纯净 TG@jcnode
+  network: ws
+  port: 443
+  server: skk.moe
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇺🇸美国US0045 1.89MB/s中性 TG@jcnode
+  network: ws
+  port: 443
+  server: fn.130519.xyz
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇺🇸美国US0047 1.88MB/s中性 TG@jcnode
+  network: ws
+  port: 443
+  server: cf.92555.xyz
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- type: vless
+  server: 172.67.202.68
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0052 1.86MB/s纯净 TG@jcnode
+- name: 🇺🇸美国US0054 1.84MB/s危险 TG@jcnode
+  password: ''
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US0056 1.84MB/s纯净 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: ''
+  server: 193.239.179.15
+  servername: worldoftanks.eu
+  tls: true
+  type: vless
+  udp: true
+  uuid: a903a468-ce63-4f3b-a4de-332eb91cc2f0
+  packet-encoding: xudp
+- name: 🇺🇸美国US0057 1.83MB/s TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 🇺🇸美国US0058 1.83MB/s TG@jcnode
   password: 'null'
   port: 9002
   server: 138.199.35.201
@@ -849,7 +366,184 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸美国US106 1.68MB/s危险 TG@jcnode
+- name: 🇺🇸美国US0060 1.81MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸美国US0062 1.8MB/s纯净 TG@jcnode
+  network: ws
+  port: 443
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9819d5c6-bc6e-4e31-8af7-c023ecff6022
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /ws
+  packet-encoding: xudp
+- name: 🇺🇸美国US0063 1.79MB/s TG@jcnode
+  password: null
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸美国US0064 1.79MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  sni: 138.199.35.213
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US0065 1.79MB/s纯净 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: ''
+  server: 193.239.179.15
+  servername: worldoftanks.asia
+  tls: true
+  type: vless
+  udp: true
+  uuid: df08fd27-d7c2-4cd2-8a79-a32287682a79
+  packet-encoding: xudp
+- name: 🇺🇸美国US0066 1.78MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0067 1.78MB/s危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 🇺🇸美国US0068 1.77MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0070 1.76MB/s TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0071 1.75MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0072 1.75MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸美国US0073 1.74MB/s危险 TG@jcnode
+  password: ''
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸美国US0074 1.74MB/s危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 🇺🇸美国US0075 1.74MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0077 1.73MB/s危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 🇺🇸美国US0078 1.73MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0079 1.73MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0080 1.72MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸美国US0081 1.72MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸美国US0082 1.72MB/s危险 TG@jcnode
   password: 'null'
   port: 9002
   server: 138.199.35.219
@@ -860,26 +554,378 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 🇺🇸美国US107 1.67MB/s TG@jcnode
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸美国US0083 1.72MB/s纯净 TG@jcnode
   network: ws
   port: 443
-  server: www.wilshire.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
   tls: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  uuid: ad19e43c-362d-42cb-9c2b-a6955cbc6af0
   ws-opts:
     headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US110 1.66MB/s危险 TG@jcnode
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /ws
+  packet-encoding: xudp
+- cipher: none
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇺🇸美国US0084 1.72MB/s TG@jcnode
+  network: grpc
+  port: 9880
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  server: 176.109.108.244
+  servername: dl.google.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- name: 🇺🇸美国US0085 1.7MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0086 1.7MB/s TG@jcnode
+  password: None
   port: 9002
   server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
+- name: 🇺🇸美国US0087 1.7MB/s危险 TG@jcnode
+  password: ''
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US0088 1.7MB/s纯净 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: ''
+  server: 193.239.179.15
+  servername: worldoftanks.eu
+  tls: true
+  type: vless
   udp: true
-- name: 🇺🇸美国US111 1.66MB/s危险 TG@jcnode
+  uuid: df08fd27-d7c2-4cd2-8a79-a32287682a79
+  packet-encoding: xudp
+- name: 🇺🇸美国US0091 1.68MB/s危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sni: 138.199.35.198
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸美国US0093 1.67MB/s危险 TG@jcnode
+  password: ''
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸美国US0094 1.67MB/s危险 TG@jcnode
+  password: null
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US0095 1.67MB/s纯净 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: ''
+  server: 193.239.179.15
+  servername: worldoftanks.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea21304e-3921-41ae-9c4b-7c5b0838cef8
+  packet-encoding: xudp
+- name: 🇺🇸美国US0096 1.66MB/s中性 TG@jcnode
+  network: ws
+  port: 443
+  server: adnjv.cf.3666888.xyz
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇺🇸美国US0098 1.65MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸美国US0100 1.64MB/s TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸美国US0101 1.64MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0102 1.64MB/s危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸美国US0105 1.64MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0108 1.62MB/s危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸美国US0109 1.62MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0111 1.61MB/s危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sni: 138.199.35.198
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 🇺🇸美国US0112 1.61MB/s TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0113 1.61MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸美国US0115 1.6MB/s TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0116 1.59MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0117 1.58MB/s TG@jcnode
+  password: null
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸美国US0118 1.58MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸美国US0119 1.58MB/s TG@jcnode
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  sni: 138.199.35.205
+  tls: true
+  type: http
+- name: 🇺🇸美国US0120 1.58MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0121 1.57MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0122 1.57MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US0123 1.57MB/s纯净 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: ''
+  server: 193.239.179.15
+  servername: worldoftanks.eu
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea21304e-3921-41ae-9c4b-7c5b0838cef8
+  packet-encoding: xudp
+- name: 🇺🇸美国US0124 1.56MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0128 1.55MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0129 1.55MB/s危险 TG@jcnode
+  password: null
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸美国US0130 1.55MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸美国US0131 1.55MB/s危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸美国US0132 1.55MB/s TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0133 1.55MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US0134 1.55MB/s纯净 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: ''
+  server: 193.239.179.15
+  servername: worldoftanks.asia
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea21304e-3921-41ae-9c4b-7c5b0838cef8
+  packet-encoding: xudp
+- name: 🇺🇸美国US0136 1.54MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0137 1.53MB/s危险 TG@jcnode
   password: 'null'
   port: 9002
   server: 138.199.35.211
@@ -889,47 +935,74 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 🇺🇸美国US112 1.65MB/s危险 TG@jcnode
-  password: 'null'
+- name: 🇺🇸美国US0139 1.52MB/s危险 TG@jcnode
   port: 9002
-  server: 138.199.35.196
+  server: 138.199.35.215
   skip-cert-verify: true
-  sni: 138.199.35.196
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0140 1.52MB/s危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sni: 138.199.35.204
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸美国US113 1.65MB/s危险 TG@jcnode
+- name: 🇺🇸美国US0141 1.52MB/s危险 TG@jcnode
+  password: None
   port: 9002
-  server: 138.199.35.220
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸美国US0142 1.51MB/s危险 TG@jcnode
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸美国US0143 1.51MB/s危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- name: 🇺🇸美国US114 1.64MB/s危险 TG@jcnode
+  username: 'null'
+- name: 🇺🇸美国US0144 1.51MB/s危险 TG@jcnode
+  password: 'null'
   port: 9002
-  server: 138.199.35.199
+  server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸美国US115 1.63MB/s危险 TG@jcnode
+  udp: true
+  username: 'null'
+- name: 🇺🇸美国US0145 1.5MB/s TG@jcnode
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0146 1.5MB/s危险 TG@jcnode
   password: None
   port: 9002
-  server: 138.199.35.196
+  server: 138.199.35.219
   skip-cert-verify: true
   sub_tag: P002-260618
   tls: true
   type: http
   udp: true
-- name: 🇺🇸美国US116 1.63MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸美国US117 1.62MB/s危险 TG@jcnode
+- name: 🇺🇸美国US0147 1.5MB/s危险 TG@jcnode
   password: 'null'
   port: 9002
   server: 138.199.35.212
@@ -939,319 +1012,200 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 🇺🇸美国US118 1.62MB/s危险 TG@jcnode
-  password: ''
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸美国US119 1.62MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸美国US120 1.61MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸美国US0148 1.5MB/s TG@jcnode
+  network: ws
+  port: 28167
+  server: 142.171.48.179
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- name: 🇺🇸美国US121 1.61MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US122 1.59MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US123 1.58MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US124 1.58MB/s危险 TG@jcnode
+  uuid: a75d95d5-ae5b-4207-a6a3-ada2943776b9
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+  packet-encoding: xudp
+- name: 🇺🇸美国US0149 1.48MB/s危险 TG@jcnode
   password: null
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸美国US125 1.58MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 🇺🇸美国US127 1.56MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US128 1.56MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  sni: 138.199.35.205
-  tls: true
-  type: http
-- name: 🇺🇸美国US129 1.56MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  sni: 138.199.35.197
-  tls: true
-  type: http
-- name: 🇺🇸美国US130 1.55MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US132 1.55MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US133 1.55MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US134 1.54MB/s危险 TG@jcnode
-  password: ''
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸美国US135 1.54MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US136 1.54MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US137 1.53MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US138 1.53MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US139 1.52MB/s危险 TG@jcnode
-  password: ''
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸美国US140 1.52MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US141 1.5MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US142 1.5MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸美国US144 1.47MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 🇺🇸美国US145 1.47MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸美国US146 1.44MB/s危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US147 1.43MB/s危险 TG@jcnode
-  password: ''
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸美国US148 1.42MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  sni: 138.199.35.213
-  tls: true
-  type: http
-- name: 🇺🇸美国US149 1.41MB/s危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸美国US150 1.39MB/s危险 TG@jcnode
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸美国US151 1.37MB/s TG@jcnode
-  network: ws
-  port: 443
-  server: 172.64.144.240
-  servername: pmpmppm.pages.dev
+- cipher: none
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US0153 1.46MB/s纯净 TG@jcnode
+  network: tcp
+  port: 9444
+  reality-opts:
+    public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
+    short-id: 68abb912e89c95bd
+  server: 45.88.104.115
+  servername: us.gazladder.work
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
-  ws-opts:
-    headers:
-      Host: pmpmppm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /?ed=2048fp=randomized
-  packet-encoding: xudp
-- name: 🇺🇸美国US152 1.27MB/s TG@jcnode
-  port: 8443
-  server: 129.212.181.253
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸美国US154 1.26MB/s TG@jcnode
-  port: 443
-  server: 161.35.56.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸美国US155 1.21MB/s中性 TG@jcnode
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- type: vless
-  server: 104.17.209.62
-  port: 8443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: e9844617-e393-4876-afa7-11859695f4ee
+- client-fingerprint: chrome
   encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US0154 1.46MB/s纯净 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: ''
+  server: 193.239.179.15
+  servername: worldoftanks.asia
   tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US157 1.18MB/s TG@jcnode
-- name: 🇺🇸美国US158 1.16MB/s中性 TG@jcnode
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
+  type: vless
   udp: true
-- name: 🇺🇸美国US159 1.14MB/s TG@jcnode
+  uuid: a903a468-ce63-4f3b-a4de-332eb91cc2f0
+  packet-encoding: xudp
+- name: 🇺🇸美国US0155 1.44MB/s纯净 TG@jcnode
+  network: ws
+  port: 443
+  server: f.lma.de5.net
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇺🇸美国US0157 1.44MB/s危险 TG@jcnode
+  password: ''
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸美国US0161 1.38MB/s TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸美国US0162 1.37MB/s危险 TG@jcnode
+  password: null
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸美国US0163 1.37MB/s危险 TG@jcnode
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸美国US0164 1.37MB/s危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US0165 1.34MB/s纯净 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: ''
+  server: 193.239.179.15
+  servername: worldoftanks.asia
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d38d2b2-342f-4a01-93df-f24fb0277c70
+  packet-encoding: xudp
+- name: 🇺🇸美国US0166 1.33MB/s中性 TG@jcnode
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---us--s---mitivpn-11.global.ssl.fastly.net
+    path: '@mehrosaboran'
+  servername: ssl.fastly.com
+- name: 🇺🇸美国US0169 1.31MB/s中性 TG@jcnode
   port: 443
   server: 18.116.108.189
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸美国US160 1.14MB/s TG@jcnode
-  port: 443
-  server: 71.43.26.234
+- name: 🇺🇸美国US0172 1.29MB/s TG@jcnode
+  port: 8443
+  server: 129.212.181.253
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸美国US161 1.07MB/s中性 TG@jcnode
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US0173 1.27MB/s纯净 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: ''
+  server: 193.239.179.15
+  servername: worldoftanks.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a903a468-ce63-4f3b-a4de-332eb91cc2f0
+  packet-encoding: xudp
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸美国US0175 1.26MB/s TG@jcnode
+  network: ws
+  port: 28167
+  server: 142.171.48.179
+  servername: gw.alicdn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a75d95d5-ae5b-4207-a6a3-ada2943776b9
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- type: vless
+  server: 103.7.136.154
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0177 1.23MB/s中性 TG@jcnode
+- name: 🇺🇸美国US0182 1.18MB/s中性 TG@jcnode
   password: e4b72b531a2d10900519
   port: 443
   server: 147.182.216.4
@@ -1261,14 +1215,82 @@ proxies:
   type: http
   udp: true
   username: testuser1
-- name: 🇺🇸美国US162 1.05MB/s中性 TG@jcnode
+- name: 🇺🇸美国US0184 1.14MB/s中性 TG@jcnode
   port: 443
   server: 216.107.139.82
   skip-cert-verify: true
   sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
   tls: true
   type: http
-- name: 🇺🇸美国US163 1.05MB/s危险 TG@jcnode
+- type: vless
+  server: 77.110.124.146
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0185 1.12MB/s纯净 TG@jcnode
+- name: 🇺🇸美国US0186 1.09MB/s危险 TG@jcnode
+  port: 8090
+  server: 173.42.49.102
+  skip-cert-verify: true
+  tls: true
+  type: http
+- type: vless
+  server: 103.11.77.104
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0187 1.09MB/s中性 TG@jcnode
+- name: 🇺🇸美国US0188 1.05MB/s危险 TG@jcnode
+  port: 8090
+  server: 184.188.139.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇺🇸美国US0189 1.05MB/s纯净 TG@jcnode
+  network: ws
+  port: 443
+  server: 199.232.173.242
+  servername: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 056d58b7-2577-4f82-b7a8-2473202419c2
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /ws
+  packet-encoding: xudp
+- name: 🇺🇸美国US0190 1.04MB/s纯净 TG@jcnode
+  network: ws
+  port: 443
+  server: mfa.gov.ua
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇺🇸美国US0191 1.04MB/s危险 TG@jcnode
   password: ''
   port: 8090
   server: 184.188.139.2
@@ -1276,44 +1298,133 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 🇺🇸美国US164 0.99MB/s TG@jcnode
-  port: 8090
-  server: 173.42.49.102
-  skip-cert-verify: true
+- cipher: none
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇺🇸美国US0192 1.02MB/s中性 TG@jcnode
+  network: grpc
+  port: 9830
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  server: 176.109.109.105
+  servername: dl.google.com
+  skip-cert-verify: false
   tls: true
-  type: http
-- name: 🇺🇸美国US166 0.97MB/s危险 TG@jcnode
-  port: 8090
-  server: 184.188.139.2
-  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸美国US0196 0.8MB/s中性 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Th2whwnn3zQaHdImi5B1wYn8hxXz3JQs3_AQCuHfanQ
+    short-id: 76d093d99ceaf06a
+  server: 34.66.64.236
+  servername: www.cloudflare.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 3893f05b-9b24-4bb1-a1dc-ba55509b0a01
 - type: vless
-  server: 104.17.24.24
+  server: 36.138.54.45
   port: 443
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   encryption: none
   tls: true
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  name: 🇺🇸美国US167 0.84MB/s TG@jcnode
-- name: 🇺🇸美国US169 0.66MB/s TG@jcnode
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0199 0.73MB/s TG@jcnode
+- name: 🇺🇸美国US0201 0.68MB/s中性 TG@jcnode
   network: ws
   port: 443
-  server: markmonitor.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
+  server: coke.cf.3666888.xyz
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
   tls: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 🇺🇸美国US172 0.44MB/s TG@jcnode
+- name: 🇺🇸美国US0202 0.68MB/s纯净 TG@jcnode
+  network: ws
+  port: 443
+  server: cf1s.cf.3666888.xyz
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸美国US0203 0.68MB/s中性 TG@jcnode
+  network: xhttp
+  port: 443
+  server: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
+  servername: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9fa2fae0-141a-b983-ef0e-b3d5633f9592
+  xhttp-opts:
+    host: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
+    mode: stream-up
+    path: /xhttp-siz10/stream-up/9fa2fae0-141a-b983-ef0e-b3d5633f9592
+  packet-encoding: xudp
+- name: 🇺🇸美国US0204 0.66MB/s中性 TG@jcnode
+  network: ws
+  port: 443
+  server: c.lma.de5.net
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸美国US0205 0.66MB/s TG@jcnode
+  network: ws
+  port: 443
+  server: v2ray.aizgl.com
+  servername: v2ray.aizgl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b21fbc7-00c2-4665-9788-02153832f9e5
+  ws-opts:
+    headers:
+      Host: v2ray.aizgl.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /xray-ws
+  packet-encoding: xudp
+- name: 🇺🇸美国US0206 0.65MB/s TG@jcnode
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 107.151.238.27
+  sni: 6b97ee1b.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 🇺🇸美国US0208 0.64MB/s TG@jcnode
   password: e4b72b531a2d10900519
   port: 443
   server: 107.151.238.27
@@ -1323,8 +1434,62 @@ proxies:
   type: http
   udp: true
   username: testuser1
+- name: 🇺🇸美国US0209 0.58MB/s TG@jcnode
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸美国US0210 0.55MB/s危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sni: 138.199.35.202
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸美国US0211 0.55MB/s危险 TG@jcnode
+  password: null
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸美国US0212 0.52MB/s危险 TG@jcnode
+  port: 443
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸美国US0213 0.47MB/s TG@jcnode
+  network: ws
+  port: 443
+  server: 2.cf.3666888.xyz
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 🇺🇸美国US0216 测速未知 TG@jcnode
+  port: 443
+  reality-opts:
+    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
+    short-id: eb97ce837da2f6ad
+  server: 136.85.2.50
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸美国US179 测速未知 TG@jcnode
+  name: 🇺🇸美国US0238 测速未知 TG@jcnode
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -1334,47 +1499,174 @@ proxies:
   server: 134.195.101.119
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸美国US183 测速未知 TG@jcnode
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612
-    mode: tls
-  port: 2377
-  server: 134.195.101.118
-  type: ss
-  udp: true
-- name: 🇺🇸美国US184 测速未知 TG@jcnode
+- name: 🇺🇸美国US0258 测速未知中性 TG@jcnode
   network: ws
-  port: 8880
-  server: 172.67.209.127
+  port: 443
+  server: 7.cf.3666888.xyz
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  tls: true
   type: vless
-  udp: true
-  uuid: bf667068-11cb-4c37-a867-4a2b03b45555
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: flat-sun-b8d3.225-154.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- encryption: none
+  name: 🇺🇸美国US0261 测速未知中性 TG@jcnode
+  network: ws
+  port: 80
+  server: 104.129.167.4
+  type: vless
+  udp: true
+  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
+  ws-opts:
+    headers:
+      Host: floral-thunder-10d3.82-67d.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: "/pyip=telegram№\x9F\x87Ј№\x9F\x87Г @azadweb"
   packet-encoding: xudp
-- name: 🇺🇸美国US192 测速未知中性 TG@jcnode
+- name: 🇺🇸美国US0263 测速未知中性 TG@jcnode
   network: ws
-  port: 8880
-  server: 104.16.72.41
+  port: 80
+  server: 89.117.112.4
   type: vless
   udp: true
-  uuid: 1bc8fb2a-3bee-4ae0-aa12-957885e63e18
+  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
   ws-opts:
     headers:
-      Host: super-mud-8b38.114-a90.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: ''
+      Host: floral-thunder-10d3.82-67d.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /pyip=Telegram🇨🇳 @VPNine1
+  packet-encoding: xudp
+- name: 🇺🇸美国US0275 测速未知 TG@jcnode
+  network: ws
+  port: 8880
+  server: 185.148.104.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /
+- name: 🇺🇸美国US0291 测速未知中性 TG@jcnode
+  network: ws
+  port: 80
+  server: 89.117.112.4
+  type: vless
+  udp: true
+  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
+  ws-opts:
+    headers:
+      Host: floral-thunder-10d3.82-67d.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /pyip=Telegram🇨🇳 @VPNine1
   packet-encoding: xudp
 - type: vless
-  server: 104.17.172.123
+  server: 172.64.229.51
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: kv.074167.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+  udp: true
+  name: 🇺🇸美国US0293 测速未知中性 TG@jcnode
+- type: vless
+  server: 172.66.140.37
+  port: 443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: vp58.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /Telegram🇨🇳 @VPNine1fp=chrome
+    headers:
+      Host: vp58.cc.cd
+  udp: true
+  name: 🇺🇸美国US0294 测速未知中性 TG@jcnode
+- name: 🇺🇸美国US0302 测速未知危险 TG@jcnode
+  port: 443
+  server: 137.175.22.85
+  skip-cert-verify: true
+  tls: true
+  type: http
+- encryption: none
+  name: 🇺🇸美国US0303 测速未知中性 TG@jcnode
+  network: ws
+  port: 8880
+  server: 92.53.189.2
+  servername: 92.53.189.2
+  type: vless
+  udp: true
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /pyip=Telegram🇨🇳+@WangCai2
+  packet-encoding: xudp
+- encryption: none
+  name: 🇺🇸美国US0323 测速未知中性 TG@jcnode
+  network: ws
+  port: 8880
+  server: 172.64.146.21
+  type: vless
+  udp: true
+  uuid: 11046a7c-fa1b-4653-ab87-400feb465540
+  ws-opts:
+    headers:
+      Host: nameless-poetry-12fb.8-0a2.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+  packet-encoding: xudp
+- encryption: none
+  name: 🇺🇸美国US0332 测速未知中性 TG@jcnode
+  network: ws
+  port: 8880
+  server: 193.227.99.2
+  type: vless
+  udp: true
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: "/pyip=Telegramđ\x9F\x87šđ\x9F\x87ł @WangCai2"
+  packet-encoding: xudp
+- type: vless
+  server: 172.64.153.39
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: kv.074167.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+  udp: true
+  name: 🇺🇸美国US0348 测速未知中性 TG@jcnode
+- type: vless
+  server: 172.66.215.13
   port: 443
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   encryption: none
@@ -1388,24 +1680,200 @@ proxies:
     headers:
       Host: vp58.cc.cd
   udp: true
-  name: 🇺🇸美国US193 测速未知中性 TG@jcnode
+  name: 🇺🇸美国US0354 测速未知中性 TG@jcnode
 - encryption: none
-  name: 🇺🇸美国US199 测速未知 TG@jcnode
+  name: 🇺🇸美国US0355 测速未知 TG@jcnode
   network: ws
   port: 8880
-  server: 104.21.23.72
+  server: 172.64.88.251
   type: vless
   udp: true
-  uuid: bf667068-11cb-4c37-a867-4a2b03b45555
+  uuid: 7e3cd2f1-0de5-4717-9002-64d8597bc577
   ws-opts:
     headers:
-      Host: flat-sun-b8d3.225-154.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
+      Host: dry-credit-fc26.203-d8c.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /pyip
   packet-encoding: xudp
 - encryption: none
-  name: 🇺🇸美国US206 测速未知中性 TG@jcnode
+  name: 🇺🇸美国US0359 测速未知中性 TG@jcnode
+  network: ws
+  port: 8880
+  server: 104.234.239.2
+  type: vless
+  udp: true
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /pyip=Telegram🇨🇳+@WangCai2
+  packet-encoding: xudp
+- type: vless
+  server: 172.66.140.37
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: kv.074167.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+  udp: true
+  name: 🇺🇸美国US0370 测速未知 TG@jcnode
+- name: 🇺🇸美国US0374 测速未知中性 TG@jcnode
+  network: ws
+  port: 80
+  server: 89.117.112.4
+  type: vless
+  udp: true
+  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
+  ws-opts:
+    headers:
+      Host: floral-thunder-10d3.82-67d.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /pyip=Telegram🇨🇳 @VPNine1
+  packet-encoding: xudp
+- name: 🇺🇸美国US0390 测速未知中性 TG@jcnode
+  password: 'null'
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  username: 'null'
+- type: vless
+  server: 172.66.0.97
+  port: 443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: vp58.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
+    headers:
+      Host: vp58.cc.cd
+  udp: true
+  name: 🇺🇸美国US0439 测速未知中性 TG@jcnode
+- type: vless
+  server: 172.64.144.125
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: kv.074167.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+  udp: true
+  name: 🇺🇸美国US0462 测速未知中性 TG@jcnode
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸美国US0469 测速未知 TG@jcnode
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612
+    mode: tls
+  port: 2377
+  server: 134.195.101.118
+  type: ss
+  udp: true
+- encryption: none
+  name: 🇺🇸美国US0471 测速未知中性 TG@jcnode
+  network: ws
+  port: 80
+  server: 104.129.167.4
+  type: vless
+  udp: true
+  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
+  ws-opts:
+    headers:
+      Host: floral-thunder-10d3.82-67d.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: "/pyip=telegram№\x9F\x87Ј№\x9F\x87Г @azadweb"
+  packet-encoding: xudp
+- type: vless
+  server: 172.66.137.125
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: kv.074167.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+  udp: true
+  name: 🇺🇸美国US0472 测速未知中性 TG@jcnode
+- encryption: none
+  name: 🇺🇸美国US0475 测速未知中性 TG@jcnode
+  network: ws
+  port: 8880
+  server: 104.234.239.2
+  servername: old-violet-a5ce.29-440.workers.dev
+  type: vless
+  udp: true
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /pyip=Telegram🇨🇳 @WangCai2
+  packet-encoding: xudp
+- name: 🇺🇸美国US0483 测速未知中性 TG@jcnode
+  password: null
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸美国US0498 测速未知中性 TG@jcnode
+  network: ws
+  port: 80
+  server: 45.131.208.4
+  type: vless
+  udp: true
+  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
+  ws-opts:
+    headers:
+      Host: floral-thunder-10d3.82-67d.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /pyip=Telegram🇨🇳 @WangCai2
+  packet-encoding: xudp
+- name: 🇺🇸美国US0500 测速未知中性 TG@jcnode
+  network: ws
+  port: 8880
+  server: 194.152.44.2
+  type: vless
+  udp: true
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /pyip=Telegram🇨🇳 @WangCai2
+  packet-encoding: xudp
+- encryption: none
+  name: 🇺🇸美国US0524 测速未知中性 TG@jcnode
   network: ws
   port: 80
   server: 104.129.167.4
@@ -1421,160 +1889,50 @@ proxies:
     path: "/pyip=telegram№\x9F\x87Ј№\x9F\x87Г @azadweb"
   packet-encoding: xudp
 - type: vless
-  server: 104.17.17.105
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US230 测速未知 TG@jcnode
-- type: vless
-  server: 104.16.248.151
+  server: 172.66.1.150
   port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US232 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.224.29
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US237 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.17.105
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US242 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.159.121
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US243 测速未知 TG@jcnode
-- name: 🇺🇸美国US249 测速未知危险 TG@jcnode
-  port: 443
-  server: 137.175.22.84
-  skip-cert-verify: true
-  tls: true
-  type: http
-- type: vless
-  server: 104.17.149.140
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US256 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.220.154
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US257 测速未知中性 TG@jcnode
-- encryption: none
-  name: 🇺🇸美国US262 测速未知 TG@jcnode
-  network: ws
-  port: 8880
-  server: 172.64.94.251
-  type: vless
-  udp: true
-  uuid: 723c410e-5789-4b21-abb9-d6ec05547ba9
-  ws-opts:
-    headers:
-      Host: blue-sky-e65b.221-553.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  packet-encoding: xudp
-- name: 🇺🇸美国US269 测速未知危险 TG@jcnode
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸美国US270 测速未知 TG@jcnode
-  network: ws
-  port: 443
-  server: www.udacity.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US0536 测速未知纯净 TG@jcnode
+- type: vless
+  server: 172.66.208.18
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: kv.074167.xyz
+  client-fingerprint: random
+  network: ws
   ws-opts:
     headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
+      Host: kv.074167.xyz
+  udp: true
+  name: 🇺🇸美国US0554 测速未知中性 TG@jcnode
+- type: vless
+  server: 172.64.153.3
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: kv.074167.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+  udp: true
+  name: 🇺🇸美国US0565 测速未知 TG@jcnode
 - client-fingerprint: chrome
-  name: 🇺🇸美国US273 测速未知 TG@jcnode
+  name: 🇺🇸美国US0566 测速未知 TG@jcnode
   network: tcp
   password: Trojan@82164024
   port: 443
@@ -1584,47 +1942,42 @@ proxies:
   type: trojan
   udp: true
   servername: us3.zestapp778.com
-- name: 🇺🇸美国US274 测速未知 TG@jcnode
+- type: vless
+  server: 172.66.0.97
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: kv.074167.xyz
+  client-fingerprint: random
   network: ws
-  port: 2086
-  server: 172.67.214.193
-  type: vless
-  udp: true
-  uuid: e5583623-53ef-4177-8070-8c553f70bcfa
   ws-opts:
     headers:
-      Host: fvfb8xac5j0nthxzqf.dr5945ov0z598kfft573isahdj3fmmv4.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /vl/NnAT20AqcYOuOLe1r?ed=2560
-  packet-encoding: xudp
-- name: 🇺🇸美国US278 测速未知 TG@jcnode
-  network: ws
-  port: 8080
-  server: 104.21.70.21
+      Host: kv.074167.xyz
+  udp: true
+  name: 🇺🇸美国US0568 测速未知 TG@jcnode
+- name: 🇺🇸美国US0628 测速未知 TG@jcnode
+  password: ''
+  port: 9002
+  server: 138.199.35.208
   skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8a36be1d-7c78-4885-8a1f-bedf5ba7db1c
-  ws-opts:
-    headers:
-      Host: lucky-lab-ac6d.caveyi8071.workers.dev
-    path: /rN50nmm9L1DeY73C?ed=2560
-- name: 🇺🇸美国US279 测速未知 TG@jcnode
-  network: ws
-  port: 443
-  server: 172.64.155.159
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
   tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
+  type: http
+  username: ''
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸美国US0636 测速未知 TG@jcnode
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.117
+  type: ss
+  udp: true
 - type: vless
-  server: 104.17.172.123
+  server: 172.66.0.97
   port: 443
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   encryption: none
@@ -1638,101 +1991,9 @@ proxies:
     headers:
       Host: vp58.cc.cd
   udp: true
-  name: 🇺🇸美国US285 测速未知中性 TG@jcnode
-- name: 🇺🇸美国US290 测速未知 TG@jcnode
-  network: ws
-  port: 443
-  server: nexusmods.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
+  name: 🇺🇸美国US0647 测速未知中性 TG@jcnode
 - type: vless
-  server: 104.17.164.206
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US293 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.209.178
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US296 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.159.121
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US297 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.24.24
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US302 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.209.178
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US303 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.115.212
+  server: 172.66.2.7
   port: 443
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   encryption: none
@@ -1746,548 +2007,115 @@ proxies:
     headers:
       Host: vp58.cc.cd
   udp: true
-  name: 🇺🇸美国US306 测速未知中性 TG@jcnode
-- client-fingerprint: chrome
-  name: 🇺🇸美国US307 测速未知 TG@jcnode
-  network: ws
-  port: 443
-  server: 172.64.146.116
-  servername: support.zoom.us.blackshadow.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  ws-opts:
-    headers:
-      Host: support.zoom.us.blackshadow.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /44.209.52.7-443
-  packet-encoding: xudp
-- type: vless
-  server: 104.17.164.206
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  name: 🇺🇸美国US0649 测速未知中性 TG@jcnode
+- client-fingerprint: random
   encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
+  name: 🇺🇸美国US0652 测速未知中性 TG@jcnode
   network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US313 测速未知中性 TG@jcnode
-- name: 🇺🇸美国US317 测速未知 TG@jcnode
-  network: ws
-  port: 443
-  server: www.wto.org
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸美国US320 测速未知 TG@jcnode
-  network: ws
-  port: 8880
-  server: 104.16.98.215
-  type: vless
-  udp: true
-  uuid: 3aaabf99-32c6-4032-8695-c9f0eb28be6f
-  ws-opts:
-    headers:
-      Host: divine-sound-9e93.22-be2.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: ''
-  packet-encoding: xudp
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸美国US321 测速未知 TG@jcnode
-  network: tcp
-  port: 443
-  server: 167.104.216.141
-  servername: gustav9.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
-  packet-encoding: xudp
-- type: vless
-  server: 104.17.172.162
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US330 测速未知中性 TG@jcnode
-- encryption: none
-  name: 🇺🇸美国US333 测速未知 TG@jcnode
-  network: ws
-  port: 8880
-  server: 104.21.12.116
-  servername: plain-cell-7c51.415-172.workers.dev
-  type: vless
-  udp: true
-  uuid: ba026f72-b6b6-448b-8a8e-39e60e375f5f
-  ws-opts:
-    headers:
-      Host: plain-cell-7c51.415-172.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  packet-encoding: xudp
-- type: vless
-  server: 104.17.115.212
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US340 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.191.23
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US357 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.114.209
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US358 测速未知中性 TG@jcnode
-- encryption: none
-  name: 🇺🇸美国US361 测速未知 TG@jcnode
-  network: ws
-  port: 8880
-  server: 104.18.12.229
-  type: vless
-  udp: true
-  uuid: deee4a60-e8c3-456f-846f-aa2c2b7fae24
-  ws-opts:
-    headers:
-      Host: broad-bush-c2c8.37-9a0.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  packet-encoding: xudp
-- type: vless
-  server: 104.17.140.229
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US363 测速未知中性 TG@jcnode
-- encryption: none
-  name: 🇺🇸美国US364 测速未知 TG@jcnode
-  network: ws
-  port: 8880
-  server: 172.64.94.251
-  type: vless
-  udp: true
-  uuid: 723c410e-5789-4b21-abb9-d6ec05547ba9
-  ws-opts:
-    headers:
-      Host: blue-sky-e65b.221-553.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  packet-encoding: xudp
-- type: vless
-  server: 104.17.150.102
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US377 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.16.156.114
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US380 测速未知中性 TG@jcnode
-- encryption: none
-  name: 🇺🇸美国US400 测速未知 TG@jcnode
-  network: ws
-  port: 8880
-  server: 104.18.32.47
-  servername: lively-scene-744f.107-47a.workers.dev
-  type: vless
-  udp: true
-  uuid: 142d1453-9cfe-4045-8e54-f3fb33342185
-  ws-opts:
-    headers:
-      Host: lively-scene-744f.107-47a.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /pyip
-  packet-encoding: xudp
-- type: vless
-  server: 104.17.166.20
   port: 2053
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  server: 172.64.229.116
+  servername: kv.074167.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /
+  packet-encoding: xudp
+- type: vless
+  server: 172.66.1.150
+  port: 443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   encryption: none
   packet-encoding: xudp
   tls: true
-  servername: kkkk-xcd.pages.dev
-  client-fingerprint: firefox
+  servername: vp58.cc.cd
+  client-fingerprint: chrome
   network: ws
   ws-opts:
+    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
     headers:
-      Host: kkkk-xcd.pages.dev
+      Host: vp58.cc.cd
   udp: true
-  name: 🇺🇸美国US411 测速未知中性 TG@jcnode
-- name: 🇺🇸美国US418 测速未知 TG@jcnode
-  network: ws
-  port: 8880
-  server: 104.16.98.215
-  type: vless
-  udp: true
-  uuid: 3aaabf99-32c6-4032-8695-c9f0eb28be6f
-  ws-opts:
-    headers:
-      Host: divine-sound-9e93.22-be2.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: ''
+  name: 🇺🇸美国US0658 测速未知中性 TG@jcnode
+- type: vless
+  server: 172.67.202.68
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  encryption: none
   packet-encoding: xudp
-- name: 🇺🇸美国US420 测速未知 TG@jcnode
+  tls: true
+  servername: kv.074167.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+  udp: true
+  name: 🇺🇸美国US0660 测速未知中性 TG@jcnode
+- type: vless
+  server: 172.66.2.7
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: kv.074167.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+  udp: true
+  name: 🇺🇸美国US0699 测速未知 TG@jcnode
+- type: vless
+  server: 172.66.215.13
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  encryption: none
+  packet-encoding: xudp
+  tls: true
+  servername: kv.074167.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+  udp: true
+  name: 🇺🇸美国US0720 测速未知中性 TG@jcnode
+- name: 🇺🇸美国US0730 测速未知危险 TG@jcnode
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸美国US0737 测速未知中性 TG@jcnode
+  password: 'null'
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸美国US0781 测速未知中性 TG@jcnode
   network: ws
   port: 443
-  server: www.tpg.com
-  servername: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
+  server: saas.sin.fan
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
   tls: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: 7qvtl.b2eg.jho.hh.vavava.kdns.fr
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
     path: /?ed=2560
-- type: vless
-  server: 104.17.209.62
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US421 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.144.159
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US423 测速未知中性 TG@jcnode
-- encryption: none
-  name: 🇺🇸美国US424 测速未知 TG@jcnode
-  network: ws
-  port: 8880
-  server: 104.21.12.116
-  type: vless
-  udp: true
-  uuid: fba6d1fd-0dab-428d-ae71-0e64c73a6060
-  ws-opts:
-    headers:
-      Host: morning-wood-0e8a.28-63e.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  packet-encoding: xudp
-- type: vless
-  server: 104.17.166.235
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US426 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.17.105
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US428 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.114.209
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US439 测速未知中性 TG@jcnode
-- encryption: none
-  name: 🇺🇸美国US442 测速未知 TG@jcnode
-  network: ws
-  port: 8880
-  server: 104.21.23.72
-  servername: flat-sun-b8d3.225-154.workers.dev
-  type: vless
-  udp: true
-  uuid: bf667068-11cb-4c37-a867-4a2b03b45555
-  ws-opts:
-    headers:
-      Host: flat-sun-b8d3.225-154.workers.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  packet-encoding: xudp
-- type: vless
-  server: 172.64.144.116
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US450 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.191.23
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US452 测速未知 TG@jcnode
-- type: vless
-  server: 104.18.33.91
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US453 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.114.209
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US454 测速未知中性 TG@jcnode
-- encryption: none
-  name: 🇺🇸美国US466 测速未知 TG@jcnode
-  network: ws
-  port: 80
-  server: 104.21.55.123
-  servername: restless-boat-ebf2.moha102030.workers.dev
-  type: vless
-  udp: true
-  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
-  ws-opts:
-    headers:
-      Host: restless-boat-ebf2.moha102030.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /sync
-  packet-encoding: xudp
-- type: vless
-  server: 172.64.229.169
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US469 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.19.145.253
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US471 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.19.145.46
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US472 测速未知 TG@jcnode
-- name: 🇺🇸美国US474 测速未知 TG@jcnode
-  network: ws
-  port: 8880
-  server: 172.67.184.37
-  type: vless
-  udp: true
-  uuid: 4f54572a-b852-4da3-8823-0ddccc60b5d8
-  ws-opts:
-    headers:
-      Host: icy-snowflake-1f56.147-1ea.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: ''
-  packet-encoding: xudp
-- name: 🇺🇸美国US477 测速未知中性 TG@jcnode
+- name: 🇺🇸美国US0792 测速未知中性 TG@jcnode
   network: ws
   port: 80
   server: 45.131.208.4
@@ -2297,139 +2125,59 @@ proxies:
   ws-opts:
     headers:
       Host: floral-thunder-10d3.82-67d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /pyip=Telegram🇨🇳 @WangCai2
   packet-encoding: xudp
-- encryption: none
-  name: 🇺🇸美国US493 测速未知中性 TG@jcnode
+- client-fingerprint: random
+  encryption: none
+  name: 🇺🇸美国US0795 测速未知中性 TG@jcnode
   network: ws
-  port: 80
-  server: 104.129.167.4
+  port: 8443
+  server: 172.64.144.243
+  servername: kv.074167.xyz
+  tls: true
   type: vless
   udp: true
-  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
   ws-opts:
     headers:
-      Host: floral-thunder-10d3.82-67d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: "/pyip=telegram№\x9F\x87Ј№\x9F\x87Г @azadweb"
-  packet-encoding: xudp
-- type: vless
-  server: 104.16.248.151
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US496 测速未知中性 TG@jcnode
-- name: 🇺🇸美国US497 测速未知中性 TG@jcnode
-  network: ws
-  port: 80
-  server: 89.117.112.4
-  type: vless
-  udp: true
-  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
-  ws-opts:
-    headers:
-      Host: floral-thunder-10d3.82-67d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /pyip=Telegram🇨🇳 @VPNine1
-  packet-encoding: xudp
-- type: vless
-  server: 104.17.167.227
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
+      Host: kv.074167.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
     path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US498 测速未知 TG@jcnode
-- type: vless
-  server: 172.64.144.116
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
   packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
+- encryption: none
+  name: 🇺🇸美国US0819 测速未知中性 TG@jcnode
   network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US500 测速未知中性 TG@jcnode
-- type: vless
-  server: 195.85.23.236
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US505 测速未知中性 TG@jcnode
-- name: 🇺🇸美国US509 测速未知危险 TG@jcnode
-  port: 443
-  server: 137.175.22.72
-  skip-cert-verify: true
-  tls: true
-  type: http
-- type: vless
-  server: 104.17.221.197
-  port: 2053
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: kkkk-xcd.pages.dev
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-  udp: true
-  name: 🇺🇸美国US510 测速未知 TG@jcnode
-- name: 🇺🇸美国US511 测速未知中性 TG@jcnode
-  network: ws
-  port: 80
-  server: 89.117.112.4
+  port: 8880
+  server: 199.34.228.2
+  servername: 199.34.228.2
   type: vless
   udp: true
-  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
   ws-opts:
     headers:
-      Host: floral-thunder-10d3.82-67d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /pyip=Telegram🇨🇳 @VPNine1
+      Host: old-violet-a5ce.29-440.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /pyip=telegram🇨🇳+@wangcai2
   packet-encoding: xudp
-- name: 🇺🇸美国US517 测速未知中性 TG@jcnode
+- name: 🇺🇸美国US0830 测速未知中性 TG@jcnode
+  network: ws
+  port: 8880
+  server: 88.216.69.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime06.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+  packet-encoding: xudp
+- name: 🇺🇸美国US0836 测速未知中性 TG@jcnode
   network: ws
   port: 80
   server: 45.131.208.4
@@ -2444,7 +2192,7 @@ proxies:
     path: /pyip=Telegram🇨🇳 @WangCai2
   packet-encoding: xudp
 - type: vless
-  server: 104.17.191.23
+  server: 172.66.1.150
   port: 443
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   encryption: none
@@ -2454,29 +2202,13 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
+    path: /Telegram🇨🇳 @VPNine1fp=chrome
     headers:
       Host: vp58.cc.cd
   udp: true
-  name: 🇺🇸美国US518 测速未知中性 TG@jcnode
+  name: 🇺🇸美国US0859 测速未知中性 TG@jcnode
 - type: vless
-  server: 104.17.24.24
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US519 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.16.158.54
+  server: 172.66.208.18
   port: 443
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   encryption: none
@@ -2486,752 +2218,185 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
+    path: /Telegram🇨🇳 @VPNine1fp=chrome
     headers:
       Host: vp58.cc.cd
   udp: true
-  name: 🇺🇸美国US523 测速未知 TG@jcnode
+  name: 🇺🇸美国US0876 测速未知中性 TG@jcnode
 - type: vless
-  server: 172.64.229.201
-  port: 2053
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  server: 172.66.1.150
+  port: 8443
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
   encryption: none
   packet-encoding: xudp
   tls: true
-  servername: kkkk-xcd.pages.dev
-  client-fingerprint: firefox
+  servername: kv.074167.xyz
+  client-fingerprint: random
   network: ws
   ws-opts:
     headers:
-      Host: kkkk-xcd.pages.dev
+      Host: kv.074167.xyz
   udp: true
-  name: 🇺🇸美国US525 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.144.159
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
+  name: 🇺🇸美国US0906 测速未知中性 TG@jcnode
+- name: 🇺🇸美国US0932 测速未知危险 TG@jcnode
+  password: ''
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
   tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US527 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.129.91
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US531 测速未知 TG@jcnode
-- type: vless
-  server: 104.19.148.219
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US536 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.149.3
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US538 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.159.206
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US540 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.172.162
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US542 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.19.145.253
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US543 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.167.227
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US546 测速未知 TG@jcnode
-- type: vless
-  server: 104.18.33.91
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US554 测速未知中性 TG@jcnode
-- type: vless
-  server: 45.142.120.54
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US556 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.220.154
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US557 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.184.232
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US563 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.144.159
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US565 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.159.206
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US574 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.157.135
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US575 测速未知中性 TG@jcnode
-- type: vless
-  server: 172.64.229.169
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US576 测速未知 TG@jcnode
-- type: vless
-  server: 104.16.158.54
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US588 测速未知中性 TG@jcnode
-- type: vless
-  server: 172.64.229.169
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US589 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.19.145.253
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US596 测速未知 TG@jcnode
-- type: vless
-  server: 104.19.148.219
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US597 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.209.62
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US600 测速未知中性 TG@jcnode
-- name: 🇺🇸美国US601 测速未知危险 TG@jcnode
+  type: http
+  username: ''
+- name: 🇺🇸美国US0951 测速未知危险 TG@jcnode
   password: None
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.210
   skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸美国US0956 测速未知危险 TG@jcnode
+  port: 443
+  server: 137.175.22.84
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸美国US0969 测速未知危险 TG@jcnode
+  password: 'null'
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸美国US1024 测速未知纯净 TG@jcnode
+  password: ''
+  port: 8443
+  server: 154.81.36.92
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸美国US1025 测速未知中性 TG@jcnode
+  password: None
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: false
   tls: true
   type: http
   username: null
-- type: vless
-  server: 104.17.149.140
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US602 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.144.159
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US610 测速未知中性 TG@jcnode
-- name: 🇺🇸美国US611 测速未知危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- type: vless
-  server: 172.64.229.169
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US616 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.16.156.114
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US620 测速未知中性 TG@jcnode
-- type: vless
-  server: 104.17.172.162
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US621 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.58.90
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US622 测速未知 TG@jcnode
-- type: vless
-  server: 104.16.158.54
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US630 测速未知 TG@jcnode
-- name: 🇺🇸美国US633 测速未知中性 TG@jcnode
-  password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=
-  port: 443
-  server: 192.236.151.43
-  skip-cert-verify: true
-  sni: 192.236.151.43
-  type: trojan
-  udp: true
-  servername: 192.236.151.43
-- type: vless
-  server: 104.17.144.33
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US638 测速未知中性 TG@jcnode
-- name: 🇺🇸美国US642 测速未知危险 TG@jcnode
-  password: ''
+- name: 🇺🇸美国US1031 测速未知危险 TG@jcnode
+  password: 'null'
   port: 9002
   server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- type: vless
-  server: 104.18.82.240
+  username: 'null'
+- name: 🇺🇸美国US1046 测速未知中性 TG@jcnode
+  password: 'null'
   port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US644 测速未知 TG@jcnode
-- type: vless
-  server: 172.64.229.201
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US648 测速未知 TG@jcnode
-- name: 🇺🇸美国US649 测速未知中性 TG@jcnode
-  network: tcp
-  password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=
-  port: 443
-  server: 192.236.151.43
-  skip-cert-verify: true
-  sni: 192.236.151.43
-  type: trojan
-  servername: 192.236.151.43
-- type: vless
-  server: 104.17.151.241
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US651 测速未知 TG@jcnode
-- type: vless
-  server: 104.17.159.243
-  port: 2096
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: edge.yzkvm.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edge.yzkvm.top
-  udp: true
-  name: 🇺🇸美国US655 测速未知中性 TG@jcnode
-- name: 🇺🇸美国US656 测速未知 TG@jcnode
-  port: 443
-  server: berniesbodybla.fun
-  sni: berniesbodybla.fun
+  server: webdrone.club
   tls: true
   type: http
-- type: vless
-  server: 104.17.157.135
+  username: 'null'
+- name: 🇺🇸美国US1060 测速未知危险 TG@jcnode
   port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US660 测速未知中性 TG@jcnode
-- name: 🇺🇸美国US661 测速未知中性 TG@jcnode
-  port: 443
-  server: 107.149.232.90
+  server: 137.175.22.72
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸美国US663 测速未知危险 TG@jcnode
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
+- name: 🇺🇸美国US1061 测速未知 TG@jcnode
+  port: 443
+  server: zebpay.site
+  sni: zebpay.site
   tls: true
   type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸美国US666 测速未知中性 TG@jcnode
-  network: tcp
-  password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=
-  port: 443
-  server: 192.236.151.43
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - type: vless
-  server: 104.19.148.230
+  server: 150.136.87.192
   port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp10.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-  udp: true
-  name: 🇺🇸美国US675 测速未知 TG@jcnode
-- name: 🇺🇸美国US676 测速未知 TG@jcnode
-  password: ''
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- type: vless
-  server: 104.168.145.98
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US678 测速未知 TG@jcnode
-- type: vless
-  server: vl.cocopon.top
-  port: 443
-  uuid: 44f06ad1-982c-4e03-849f-899c1c8dc14f
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   encryption: none
   tls: true
-  servername: vl.cocopon.top
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: vl.cocopon.top
-  name: 🇺🇸美国US681 测速未知 TG@jcnode
-- name: 🇺🇸美国US684 测速未知 TG@jcnode
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸美国US688 测速未知中性 TG@jcnode
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US1064 测速未知 TG@jcnode
+- name: 🇺🇸美国US1068 测速未知中性 TG@jcnode
   port: 443
   server: 162.217.114.50
   skip-cert-verify: true
   tls: true
   type: http
-- type: vless
-  server: 198.251.81.70
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
+- cipher: none
+  name: 🇺🇸美国US1081 测速未知 TG@jcnode
   network: ws
-  ws-opts:
-    path: /Telegram🇨🇳 @VPNine1
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US690 测速未知 TG@jcnode
-- type: vless
-  server: 104.168.155.113
   port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: false
   tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
+  type: vless
   udp: true
-  name: 🇺🇸美国US692 测速未知 TG@jcnode
-- name: 🇺🇸美国US693 测速未知危险 TG@jcnode
+  uuid: XpnTeam-54
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
+- name: 🇺🇸美国US1086 测速未知危险 TG@jcnode
+  port: 443
+  server: 162.244.227.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸美国US1094 测速未知中性 TG@jcnode
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  sni: 93b6d804.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 🇺🇸美国US1096 测速未知危险 TG@jcnode
   port: 443
   server: 38.28.193.1
   skip-cert-verify: true
   sni: 38.28.193.1
   tls: true
   type: http
-- name: 🇺🇸美国US695 测速未知危险 TG@jcnode
+- cipher: auto
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇺🇸美国US1097 测速未知 TG@jcnode
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ITd6cmCxudmTvGcwnAzpd0VRe8jS9KJAQ1tmtVN3mCM
+    short-id: 9e15546f267baa64
+  server: 2.27.249.130
+  servername: n11.clouderiux.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f4081e7-612b-425f-8def-eebf144aedba
+- name: 🇺🇸美国US1102 测速未知危险 TG@jcnode
+  password: ''
+  port: 443
+  server: 71.43.26.234
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸美国US1106 测速未知危险 TG@jcnode
   port: 443
   server: fan.226278.xyz
   sni: fan.226278.xyz
   tls: true
   type: http
-- name: 🇺🇸美国US698 测速未知危险 TG@jcnode
+- name: 🇺🇸美国US1116 测速未知危险 TG@jcnode
   password: 'null'
   port: 443
   server: 38.28.193.188
@@ -3240,160 +2405,55 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸美国US699 测速未知中性 TG@jcnode
-  password: freeuser1
-  port: 9251
-  server: dl1-us.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 🇺🇸美国US701 测速未知危险 TG@jcnode
-  port: 443
-  server: 162.244.227.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- type: vless
-  server: 141.148.187.195
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
-  packet-encoding: xudp
-  tls: true
-  servername: vp58.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-    headers:
-      Host: vp58.cc.cd
-  udp: true
-  name: 🇺🇸美国US702 测速未知 TG@jcnode
-- name: 🇺🇸美国US703 测速未知危险 TG@jcnode
-  port: 443
-  server: fan.226278.xyz
-  sni: fan.226278.xyz
-  sub_tag: Z001-260618
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸美国US706 测速未知 TG@jcnode
-  network: ws
-  port: 443
-  server: 188.114.96.9
-  servername: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
-  ws-opts:
-    headers:
-      Host: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
-    path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrj
-- auth: 5fa748137b6d822308eea4611f474ad5
-  name: 🇺🇸美国US708 测速未知 TG@jcnode
-  obfs: salamander
-  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-  password: 5fa748137b6d822308eea4611f474ad5
-  port: 443
-  server: 155.117.19.17
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 🇺🇸美国US709 测速未知 TG@jcnode
-  port: 8090
-  server: 50.76.211.251
-  skip-cert-verify: true
-  tls: true
-  type: http
-- type: vless
-  server: tg.juntham.cn
-  port: 443
-  uuid: da8aa4cc-4f76-4248-a289-41f25713b6e2
-  encryption: none
-  tls: true
-  servername: tg.juntham.cn
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tg.juntham.cn
-  name: 🇺🇸美国US711 测速未知 TG@jcnode
-- client-fingerprint: chrome
-  name: 🇺🇸美国US723 测速未知 TG@jcnode
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /assignment
-  servername: www.ignitelimit.com
-- client-fingerprint: chrome
-  name: 🇺🇸美国US727 测速未知 TG@jcnode
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.22.63
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /assignment
-  servername: www.ignitelimit.com
-- name: 🇺🇸美国US749 测速未知纯净 TG@jcnode
+- name: 🇺🇸美国US1120 测速未知纯净 TG@jcnode
   port: 443
   server: 170.199.233.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸美国US753 测速未知中性 TG@jcnode
+- name: 🇺🇸美国US1123 测速未知危险 TG@jcnode
+  port: 443
+  server: 207.5.30.9
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸美国US1125 测速未知危险 TG@jcnode
+  port: 8443
+  server: 43.166.187.191
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: random
+  encryption: none
+  name: 🇺🇸美国US1134 测速未知中性 TG@jcnode
   network: ws
-  port: 80
-  server: 194.36.55.146
+  port: 8443
+  server: 156.38.157.171
+  servername: fm3.pages.dev
+  tls: true
   type: vless
   udp: true
-  uuid: 964e6322-afad-4594-8508-86d634d732e6
+  uuid: 2fdf56f7-7bd0-43c5-8c57-a505a74c61b0
   ws-opts:
     headers:
-      Host: blacklegends.umc-mansur13.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: ''
+      Host: fm3.pages.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /?ed=2560
   packet-encoding: xudp
-- name: 🇺🇸美国US754 测速未知中性 TG@jcnode
+- type: vless
+  server: 47.251.95.178
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  tls: true
+  servername: mlqck.zwum.oqi.hh.vavava.kdns.fr
   network: ws
-  port: 80
-  server: 194.36.55.146
-  type: vless
-  udp: true
-  uuid: 964e6322-afad-4594-8508-86d634d732e6
   ws-opts:
+    path: /?ed=2560
     headers:
-      Host: blacklegends.umc-mansur13.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
-    path: ''
-  packet-encoding: xudp
-- type: socks5
-  server: 43.135.176.121
-  port: 1080
-  name: 🇺🇸美国US758 测速未知 TG@jcnode
+      Host: mlqck.zwum.oqi.hh.vavava.kdns.fr
+  name: 🇺🇸美国US1137 测速未知中性 TG@jcnode
 proxy-groups:
 - name: ☁️ 代理选择
   type: select
@@ -3404,578 +2464,450 @@ proxy-groups:
   type: select
   proxies:
   - 🇺🇸 美国自动
-  - 🇺🇸美国US001 3.3MB/s TG@jcnode
-  - 🇺🇸美国US002 2.37MB/s TG@jcnode
-  - 🇺🇸美国US003 2.27MB/s TG@jcnode
-  - 🇺🇸美国US004 2.22MB/s TG@jcnode
-  - 🇺🇸美国US005 2.22MB/s纯净 TG@jcnode
-  - 🇺🇸美国US006 2.22MB/s TG@jcnode
-  - 🇺🇸美国US007 2.22MB/s TG@jcnode
-  - 🇺🇸美国US008 2.21MB/s TG@jcnode
-  - 🇺🇸美国US009 2.21MB/s TG@jcnode
-  - 🇺🇸美国US010 2.21MB/s TG@jcnode
-  - 🇺🇸美国US011 2.19MB/s TG@jcnode
-  - 🇺🇸美国US015 2.15MB/s TG@jcnode
-  - 🇺🇸美国US017 2.15MB/s TG@jcnode
-  - 🇺🇸美国US019 2.13MB/s纯净 TG@jcnode
-  - 🇺🇸美国US020 2.12MB/s TG@jcnode
-  - 🇺🇸美国US021 2.12MB/s TG@jcnode
-  - 🇺🇸美国US022 2.12MB/s TG@jcnode
-  - 🇺🇸美国US024 2.11MB/s中性 TG@jcnode
-  - 🇺🇸美国US026 2.11MB/s TG@jcnode
-  - 🇺🇸美国US027 2.11MB/s TG@jcnode
-  - 🇺🇸美国US029 2.09MB/s TG@jcnode
-  - 🇺🇸美国US030 2.09MB/s TG@jcnode
-  - 🇺🇸美国US032 2.09MB/s TG@jcnode
-  - 🇺🇸美国US035 2.06MB/s TG@jcnode
-  - 🇺🇸美国US036 2.04MB/s TG@jcnode
-  - 🇺🇸美国US037 2.03MB/s TG@jcnode
-  - 🇺🇸美国US039 2.03MB/s TG@jcnode
-  - 🇺🇸美国US043 1.99MB/s TG@jcnode
-  - 🇺🇸美国US044 1.99MB/s TG@jcnode
-  - 🇺🇸美国US045 1.99MB/s TG@jcnode
-  - 🇺🇸美国US046 1.99MB/s TG@jcnode
-  - 🇺🇸美国US048 1.98MB/s TG@jcnode
-  - 🇺🇸美国US049 1.98MB/s危险 TG@jcnode
-  - 🇺🇸美国US051 1.95MB/s危险 TG@jcnode
-  - 🇺🇸美国US052 1.95MB/s危险 TG@jcnode
-  - 🇺🇸美国US053 1.94MB/s TG@jcnode
-  - 🇺🇸美国US054 1.94MB/s TG@jcnode
-  - 🇺🇸美国US055 1.94MB/s TG@jcnode
-  - 🇺🇸美国US056 1.93MB/s TG@jcnode
-  - 🇺🇸美国US057 1.93MB/s中性 TG@jcnode
-  - 🇺🇸美国US058 1.92MB/s TG@jcnode
-  - 🇺🇸美国US059 1.9MB/s危险 TG@jcnode
-  - 🇺🇸美国US060 1.89MB/s危险 TG@jcnode
-  - 🇺🇸美国US061 1.88MB/s TG@jcnode
-  - 🇺🇸美国US062 1.88MB/s TG@jcnode
-  - 🇺🇸美国US064 1.86MB/s TG@jcnode
-  - 🇺🇸美国US065 1.85MB/s危险 TG@jcnode
-  - 🇺🇸美国US068 1.81MB/s危险 TG@jcnode
-  - 🇺🇸美国US069 1.8MB/s危险 TG@jcnode
-  - 🇺🇸美国US070 1.8MB/s危险 TG@jcnode
-  - 🇺🇸美国US071 1.8MB/s危险 TG@jcnode
-  - 🇺🇸美国US073 1.78MB/s危险 TG@jcnode
-  - 🇺🇸美国US074 1.77MB/s危险 TG@jcnode
-  - 🇺🇸美国US075 1.77MB/s危险 TG@jcnode
-  - 🇺🇸美国US076 1.77MB/s危险 TG@jcnode
-  - 🇺🇸美国US077 1.77MB/s危险 TG@jcnode
-  - 🇺🇸美国US081 1.72MB/s危险 TG@jcnode
-  - 🇺🇸美国US082 1.72MB/s TG@jcnode
-  - 🇺🇸美国US083 1.72MB/s危险 TG@jcnode
-  - 🇺🇸美国US084 1.71MB/s危险 TG@jcnode
-  - 🇺🇸美国US085 1.71MB/s危险 TG@jcnode
-  - 🇺🇸美国US086 1.71MB/s危险 TG@jcnode
-  - 🇺🇸美国US087 1.71MB/s危险 TG@jcnode
-  - 🇺🇸美国US088 1.71MB/s危险 TG@jcnode
-  - 🇺🇸美国US089 1.71MB/s TG@jcnode
-  - 🇺🇸美国US090 1.7MB/s危险 TG@jcnode
-  - 🇺🇸美国US091 1.69MB/s TG@jcnode
-  - 🇺🇸美国US092 1.69MB/s危险 TG@jcnode
-  - 🇺🇸美国US093 1.69MB/s危险 TG@jcnode
-  - 🇺🇸美国US095 1.69MB/s危险 TG@jcnode
-  - 🇺🇸美国US096 1.68MB/s TG@jcnode
-  - 🇺🇸美国US097 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US098 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US099 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US100 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US102 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US103 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US104 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US105 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US106 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US107 1.67MB/s TG@jcnode
-  - 🇺🇸美国US110 1.66MB/s危险 TG@jcnode
-  - 🇺🇸美国US111 1.66MB/s危险 TG@jcnode
-  - 🇺🇸美国US112 1.65MB/s危险 TG@jcnode
-  - 🇺🇸美国US113 1.65MB/s危险 TG@jcnode
-  - 🇺🇸美国US114 1.64MB/s危险 TG@jcnode
-  - 🇺🇸美国US115 1.63MB/s危险 TG@jcnode
-  - 🇺🇸美国US116 1.63MB/s危险 TG@jcnode
-  - 🇺🇸美国US117 1.62MB/s危险 TG@jcnode
-  - 🇺🇸美国US118 1.62MB/s危险 TG@jcnode
-  - 🇺🇸美国US119 1.62MB/s危险 TG@jcnode
-  - 🇺🇸美国US120 1.61MB/s危险 TG@jcnode
-  - 🇺🇸美国US121 1.61MB/s危险 TG@jcnode
-  - 🇺🇸美国US122 1.59MB/s危险 TG@jcnode
-  - 🇺🇸美国US123 1.58MB/s危险 TG@jcnode
-  - 🇺🇸美国US124 1.58MB/s危险 TG@jcnode
-  - 🇺🇸美国US125 1.58MB/s危险 TG@jcnode
-  - 🇺🇸美国US127 1.56MB/s危险 TG@jcnode
-  - 🇺🇸美国US128 1.56MB/s危险 TG@jcnode
-  - 🇺🇸美国US129 1.56MB/s危险 TG@jcnode
-  - 🇺🇸美国US130 1.55MB/s危险 TG@jcnode
-  - 🇺🇸美国US132 1.55MB/s危险 TG@jcnode
-  - 🇺🇸美国US133 1.55MB/s危险 TG@jcnode
-  - 🇺🇸美国US134 1.54MB/s危险 TG@jcnode
-  - 🇺🇸美国US135 1.54MB/s危险 TG@jcnode
-  - 🇺🇸美国US136 1.54MB/s危险 TG@jcnode
-  - 🇺🇸美国US137 1.53MB/s危险 TG@jcnode
-  - 🇺🇸美国US138 1.53MB/s危险 TG@jcnode
-  - 🇺🇸美国US139 1.52MB/s危险 TG@jcnode
-  - 🇺🇸美国US140 1.52MB/s危险 TG@jcnode
-  - 🇺🇸美国US141 1.5MB/s危险 TG@jcnode
-  - 🇺🇸美国US142 1.5MB/s危险 TG@jcnode
-  - 🇺🇸美国US144 1.47MB/s危险 TG@jcnode
-  - 🇺🇸美国US145 1.47MB/s危险 TG@jcnode
-  - 🇺🇸美国US146 1.44MB/s危险 TG@jcnode
-  - 🇺🇸美国US147 1.43MB/s危险 TG@jcnode
-  - 🇺🇸美国US148 1.42MB/s危险 TG@jcnode
-  - 🇺🇸美国US149 1.41MB/s危险 TG@jcnode
-  - 🇺🇸美国US150 1.39MB/s危险 TG@jcnode
-  - 🇺🇸美国US151 1.37MB/s TG@jcnode
-  - 🇺🇸美国US152 1.27MB/s TG@jcnode
-  - 🇺🇸美国US154 1.26MB/s TG@jcnode
-  - 🇺🇸美国US155 1.21MB/s中性 TG@jcnode
-  - 🇺🇸美国US157 1.18MB/s TG@jcnode
-  - 🇺🇸美国US158 1.16MB/s中性 TG@jcnode
-  - 🇺🇸美国US159 1.14MB/s TG@jcnode
-  - 🇺🇸美国US160 1.14MB/s TG@jcnode
-  - 🇺🇸美国US161 1.07MB/s中性 TG@jcnode
-  - 🇺🇸美国US162 1.05MB/s中性 TG@jcnode
-  - 🇺🇸美国US163 1.05MB/s危险 TG@jcnode
-  - 🇺🇸美国US164 0.99MB/s TG@jcnode
-  - 🇺🇸美国US166 0.97MB/s危险 TG@jcnode
-  - 🇺🇸美国US167 0.84MB/s TG@jcnode
-  - 🇺🇸美国US169 0.66MB/s TG@jcnode
-  - 🇺🇸美国US172 0.44MB/s TG@jcnode
-  - 🇺🇸美国US179 测速未知 TG@jcnode
-  - 🇺🇸美国US183 测速未知 TG@jcnode
-  - 🇺🇸美国US184 测速未知 TG@jcnode
-  - 🇺🇸美国US192 测速未知中性 TG@jcnode
-  - 🇺🇸美国US193 测速未知中性 TG@jcnode
-  - 🇺🇸美国US199 测速未知 TG@jcnode
-  - 🇺🇸美国US206 测速未知中性 TG@jcnode
-  - 🇺🇸美国US230 测速未知 TG@jcnode
-  - 🇺🇸美国US232 测速未知 TG@jcnode
-  - 🇺🇸美国US237 测速未知 TG@jcnode
-  - 🇺🇸美国US242 测速未知中性 TG@jcnode
-  - 🇺🇸美国US243 测速未知 TG@jcnode
-  - 🇺🇸美国US249 测速未知危险 TG@jcnode
-  - 🇺🇸美国US256 测速未知中性 TG@jcnode
-  - 🇺🇸美国US257 测速未知中性 TG@jcnode
-  - 🇺🇸美国US262 测速未知 TG@jcnode
-  - 🇺🇸美国US269 测速未知危险 TG@jcnode
-  - 🇺🇸美国US270 测速未知 TG@jcnode
-  - 🇺🇸美国US273 测速未知 TG@jcnode
-  - 🇺🇸美国US274 测速未知 TG@jcnode
-  - 🇺🇸美国US278 测速未知 TG@jcnode
-  - 🇺🇸美国US279 测速未知 TG@jcnode
-  - 🇺🇸美国US285 测速未知中性 TG@jcnode
-  - 🇺🇸美国US290 测速未知 TG@jcnode
-  - 🇺🇸美国US293 测速未知中性 TG@jcnode
-  - 🇺🇸美国US296 测速未知 TG@jcnode
-  - 🇺🇸美国US297 测速未知 TG@jcnode
-  - 🇺🇸美国US302 测速未知中性 TG@jcnode
-  - 🇺🇸美国US303 测速未知中性 TG@jcnode
-  - 🇺🇸美国US306 测速未知中性 TG@jcnode
-  - 🇺🇸美国US307 测速未知 TG@jcnode
-  - 🇺🇸美国US313 测速未知中性 TG@jcnode
-  - 🇺🇸美国US317 测速未知 TG@jcnode
-  - 🇺🇸美国US320 测速未知 TG@jcnode
-  - 🇺🇸美国US321 测速未知 TG@jcnode
-  - 🇺🇸美国US330 测速未知中性 TG@jcnode
-  - 🇺🇸美国US333 测速未知 TG@jcnode
-  - 🇺🇸美国US340 测速未知 TG@jcnode
-  - 🇺🇸美国US357 测速未知中性 TG@jcnode
-  - 🇺🇸美国US358 测速未知中性 TG@jcnode
-  - 🇺🇸美国US361 测速未知 TG@jcnode
-  - 🇺🇸美国US363 测速未知中性 TG@jcnode
-  - 🇺🇸美国US364 测速未知 TG@jcnode
-  - 🇺🇸美国US377 测速未知中性 TG@jcnode
-  - 🇺🇸美国US380 测速未知中性 TG@jcnode
-  - 🇺🇸美国US400 测速未知 TG@jcnode
-  - 🇺🇸美国US411 测速未知中性 TG@jcnode
-  - 🇺🇸美国US418 测速未知 TG@jcnode
-  - 🇺🇸美国US420 测速未知 TG@jcnode
-  - 🇺🇸美国US421 测速未知中性 TG@jcnode
-  - 🇺🇸美国US423 测速未知中性 TG@jcnode
-  - 🇺🇸美国US424 测速未知 TG@jcnode
-  - 🇺🇸美国US426 测速未知中性 TG@jcnode
-  - 🇺🇸美国US428 测速未知中性 TG@jcnode
-  - 🇺🇸美国US439 测速未知中性 TG@jcnode
-  - 🇺🇸美国US442 测速未知 TG@jcnode
-  - 🇺🇸美国US450 测速未知中性 TG@jcnode
-  - 🇺🇸美国US452 测速未知 TG@jcnode
-  - 🇺🇸美国US453 测速未知中性 TG@jcnode
-  - 🇺🇸美国US454 测速未知中性 TG@jcnode
-  - 🇺🇸美国US466 测速未知 TG@jcnode
-  - 🇺🇸美国US469 测速未知中性 TG@jcnode
-  - 🇺🇸美国US471 测速未知中性 TG@jcnode
-  - 🇺🇸美国US472 测速未知 TG@jcnode
-  - 🇺🇸美国US474 测速未知 TG@jcnode
-  - 🇺🇸美国US477 测速未知中性 TG@jcnode
-  - 🇺🇸美国US493 测速未知中性 TG@jcnode
-  - 🇺🇸美国US496 测速未知中性 TG@jcnode
-  - 🇺🇸美国US497 测速未知中性 TG@jcnode
-  - 🇺🇸美国US498 测速未知 TG@jcnode
-  - 🇺🇸美国US500 测速未知中性 TG@jcnode
-  - 🇺🇸美国US505 测速未知中性 TG@jcnode
-  - 🇺🇸美国US509 测速未知危险 TG@jcnode
-  - 🇺🇸美国US510 测速未知 TG@jcnode
-  - 🇺🇸美国US511 测速未知中性 TG@jcnode
-  - 🇺🇸美国US517 测速未知中性 TG@jcnode
-  - 🇺🇸美国US518 测速未知中性 TG@jcnode
-  - 🇺🇸美国US519 测速未知中性 TG@jcnode
-  - 🇺🇸美国US523 测速未知 TG@jcnode
-  - 🇺🇸美国US525 测速未知 TG@jcnode
-  - 🇺🇸美国US527 测速未知中性 TG@jcnode
-  - 🇺🇸美国US531 测速未知 TG@jcnode
-  - 🇺🇸美国US536 测速未知 TG@jcnode
-  - 🇺🇸美国US538 测速未知 TG@jcnode
-  - 🇺🇸美国US540 测速未知 TG@jcnode
-  - 🇺🇸美国US542 测速未知中性 TG@jcnode
-  - 🇺🇸美国US543 测速未知中性 TG@jcnode
-  - 🇺🇸美国US546 测速未知 TG@jcnode
-  - 🇺🇸美国US554 测速未知中性 TG@jcnode
-  - 🇺🇸美国US556 测速未知 TG@jcnode
-  - 🇺🇸美国US557 测速未知 TG@jcnode
-  - 🇺🇸美国US563 测速未知 TG@jcnode
-  - 🇺🇸美国US565 测速未知 TG@jcnode
-  - 🇺🇸美国US574 测速未知中性 TG@jcnode
-  - 🇺🇸美国US575 测速未知中性 TG@jcnode
-  - 🇺🇸美国US576 测速未知 TG@jcnode
-  - 🇺🇸美国US588 测速未知中性 TG@jcnode
-  - 🇺🇸美国US589 测速未知中性 TG@jcnode
-  - 🇺🇸美国US596 测速未知 TG@jcnode
-  - 🇺🇸美国US597 测速未知中性 TG@jcnode
-  - 🇺🇸美国US600 测速未知中性 TG@jcnode
-  - 🇺🇸美国US601 测速未知危险 TG@jcnode
-  - 🇺🇸美国US602 测速未知中性 TG@jcnode
-  - 🇺🇸美国US610 测速未知中性 TG@jcnode
-  - 🇺🇸美国US611 测速未知危险 TG@jcnode
-  - 🇺🇸美国US616 测速未知中性 TG@jcnode
-  - 🇺🇸美国US620 测速未知中性 TG@jcnode
-  - 🇺🇸美国US621 测速未知 TG@jcnode
-  - 🇺🇸美国US622 测速未知 TG@jcnode
-  - 🇺🇸美国US630 测速未知 TG@jcnode
-  - 🇺🇸美国US633 测速未知中性 TG@jcnode
-  - 🇺🇸美国US638 测速未知中性 TG@jcnode
-  - 🇺🇸美国US642 测速未知危险 TG@jcnode
-  - 🇺🇸美国US644 测速未知 TG@jcnode
-  - 🇺🇸美国US648 测速未知 TG@jcnode
-  - 🇺🇸美国US649 测速未知中性 TG@jcnode
-  - 🇺🇸美国US651 测速未知 TG@jcnode
-  - 🇺🇸美国US655 测速未知中性 TG@jcnode
-  - 🇺🇸美国US656 测速未知 TG@jcnode
-  - 🇺🇸美国US660 测速未知中性 TG@jcnode
-  - 🇺🇸美国US661 测速未知中性 TG@jcnode
-  - 🇺🇸美国US663 测速未知危险 TG@jcnode
-  - 🇺🇸美国US666 测速未知中性 TG@jcnode
-  - 🇺🇸美国US675 测速未知 TG@jcnode
-  - 🇺🇸美国US676 测速未知 TG@jcnode
-  - 🇺🇸美国US678 测速未知 TG@jcnode
-  - 🇺🇸美国US681 测速未知 TG@jcnode
-  - 🇺🇸美国US684 测速未知 TG@jcnode
-  - 🇺🇸美国US688 测速未知中性 TG@jcnode
-  - 🇺🇸美国US690 测速未知 TG@jcnode
-  - 🇺🇸美国US692 测速未知 TG@jcnode
-  - 🇺🇸美国US693 测速未知危险 TG@jcnode
-  - 🇺🇸美国US695 测速未知危险 TG@jcnode
-  - 🇺🇸美国US698 测速未知危险 TG@jcnode
-  - 🇺🇸美国US699 测速未知中性 TG@jcnode
-  - 🇺🇸美国US701 测速未知危险 TG@jcnode
-  - 🇺🇸美国US702 测速未知 TG@jcnode
-  - 🇺🇸美国US703 测速未知危险 TG@jcnode
-  - 🇺🇸美国US706 测速未知 TG@jcnode
-  - 🇺🇸美国US708 测速未知 TG@jcnode
-  - 🇺🇸美国US709 测速未知 TG@jcnode
-  - 🇺🇸美国US711 测速未知 TG@jcnode
-  - 🇺🇸美国US723 测速未知 TG@jcnode
-  - 🇺🇸美国US727 测速未知 TG@jcnode
-  - 🇺🇸美国US749 测速未知纯净 TG@jcnode
-  - 🇺🇸美国US753 测速未知中性 TG@jcnode
-  - 🇺🇸美国US754 测速未知中性 TG@jcnode
-  - 🇺🇸美国US758 测速未知 TG@jcnode
+  - 🇺🇸美国US0006 2.24MB/s中性 TG@jcnode
+  - 🇺🇸美国US0008 2.19MB/s TG@jcnode
+  - 🇺🇸美国US0009 2.19MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0010 2.18MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0013 2.13MB/s中性 TG@jcnode
+  - 🇺🇸美国US0015 2.12MB/s TG@jcnode
+  - 🇺🇸美国US0016 2.11MB/s TG@jcnode
+  - 🇺🇸美国US0019 2.08MB/s中性 TG@jcnode
+  - 🇺🇸美国US0020 2.08MB/s中性 TG@jcnode
+  - 🇺🇸美国US0021 2.05MB/s中性 TG@jcnode
+  - 🇺🇸美国US0023 2.05MB/s中性 TG@jcnode
+  - 🇺🇸美国US0024 2.01MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0025 2.01MB/s中性 TG@jcnode
+  - 🇺🇸美国US0027 2MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0030 1.96MB/s TG@jcnode
+  - 🇺🇸美国US0032 1.95MB/s TG@jcnode
+  - 🇺🇸美国US0033 1.95MB/s TG@jcnode
+  - 🇺🇸美国US0034 1.95MB/s中性 TG@jcnode
+  - 🇺🇸美国US0039 1.94MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0042 1.92MB/s中性 TG@jcnode
+  - 🇺🇸美国US0043 1.92MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0044 1.9MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0045 1.89MB/s中性 TG@jcnode
+  - 🇺🇸美国US0047 1.88MB/s中性 TG@jcnode
+  - 🇺🇸美国US0052 1.86MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0054 1.84MB/s危险 TG@jcnode
+  - 🇺🇸美国US0056 1.84MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0057 1.83MB/s TG@jcnode
+  - 🇺🇸美国US0058 1.83MB/s TG@jcnode
+  - 🇺🇸美国US0060 1.81MB/s危险 TG@jcnode
+  - 🇺🇸美国US0062 1.8MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0063 1.79MB/s TG@jcnode
+  - 🇺🇸美国US0064 1.79MB/s危险 TG@jcnode
+  - 🇺🇸美国US0065 1.79MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0066 1.78MB/s危险 TG@jcnode
+  - 🇺🇸美国US0067 1.78MB/s危险 TG@jcnode
+  - 🇺🇸美国US0068 1.77MB/s危险 TG@jcnode
+  - 🇺🇸美国US0070 1.76MB/s TG@jcnode
+  - 🇺🇸美国US0071 1.75MB/s危险 TG@jcnode
+  - 🇺🇸美国US0072 1.75MB/s危险 TG@jcnode
+  - 🇺🇸美国US0073 1.74MB/s危险 TG@jcnode
+  - 🇺🇸美国US0074 1.74MB/s危险 TG@jcnode
+  - 🇺🇸美国US0075 1.74MB/s危险 TG@jcnode
+  - 🇺🇸美国US0077 1.73MB/s危险 TG@jcnode
+  - 🇺🇸美国US0078 1.73MB/s危险 TG@jcnode
+  - 🇺🇸美国US0079 1.73MB/s危险 TG@jcnode
+  - 🇺🇸美国US0080 1.72MB/s危险 TG@jcnode
+  - 🇺🇸美国US0081 1.72MB/s危险 TG@jcnode
+  - 🇺🇸美国US0082 1.72MB/s危险 TG@jcnode
+  - 🇺🇸美国US0083 1.72MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0084 1.72MB/s TG@jcnode
+  - 🇺🇸美国US0085 1.7MB/s危险 TG@jcnode
+  - 🇺🇸美国US0086 1.7MB/s TG@jcnode
+  - 🇺🇸美国US0087 1.7MB/s危险 TG@jcnode
+  - 🇺🇸美国US0088 1.7MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0091 1.68MB/s危险 TG@jcnode
+  - 🇺🇸美国US0093 1.67MB/s危险 TG@jcnode
+  - 🇺🇸美国US0094 1.67MB/s危险 TG@jcnode
+  - 🇺🇸美国US0095 1.67MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0096 1.66MB/s中性 TG@jcnode
+  - 🇺🇸美国US0098 1.65MB/s危险 TG@jcnode
+  - 🇺🇸美国US0100 1.64MB/s TG@jcnode
+  - 🇺🇸美国US0101 1.64MB/s危险 TG@jcnode
+  - 🇺🇸美国US0102 1.64MB/s危险 TG@jcnode
+  - 🇺🇸美国US0105 1.64MB/s危险 TG@jcnode
+  - 🇺🇸美国US0108 1.62MB/s危险 TG@jcnode
+  - 🇺🇸美国US0109 1.62MB/s危险 TG@jcnode
+  - 🇺🇸美国US0111 1.61MB/s危险 TG@jcnode
+  - 🇺🇸美国US0112 1.61MB/s TG@jcnode
+  - 🇺🇸美国US0113 1.61MB/s危险 TG@jcnode
+  - 🇺🇸美国US0115 1.6MB/s TG@jcnode
+  - 🇺🇸美国US0116 1.59MB/s危险 TG@jcnode
+  - 🇺🇸美国US0117 1.58MB/s TG@jcnode
+  - 🇺🇸美国US0118 1.58MB/s危险 TG@jcnode
+  - 🇺🇸美国US0119 1.58MB/s TG@jcnode
+  - 🇺🇸美国US0120 1.58MB/s危险 TG@jcnode
+  - 🇺🇸美国US0121 1.57MB/s危险 TG@jcnode
+  - 🇺🇸美国US0122 1.57MB/s危险 TG@jcnode
+  - 🇺🇸美国US0123 1.57MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0124 1.56MB/s危险 TG@jcnode
+  - 🇺🇸美国US0128 1.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0129 1.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0130 1.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0131 1.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0132 1.55MB/s TG@jcnode
+  - 🇺🇸美国US0133 1.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0134 1.55MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0136 1.54MB/s危险 TG@jcnode
+  - 🇺🇸美国US0137 1.53MB/s危险 TG@jcnode
+  - 🇺🇸美国US0139 1.52MB/s危险 TG@jcnode
+  - 🇺🇸美国US0140 1.52MB/s危险 TG@jcnode
+  - 🇺🇸美国US0141 1.52MB/s危险 TG@jcnode
+  - 🇺🇸美国US0142 1.51MB/s危险 TG@jcnode
+  - 🇺🇸美国US0143 1.51MB/s危险 TG@jcnode
+  - 🇺🇸美国US0144 1.51MB/s危险 TG@jcnode
+  - 🇺🇸美国US0145 1.5MB/s TG@jcnode
+  - 🇺🇸美国US0146 1.5MB/s危险 TG@jcnode
+  - 🇺🇸美国US0147 1.5MB/s危险 TG@jcnode
+  - 🇺🇸美国US0148 1.5MB/s TG@jcnode
+  - 🇺🇸美国US0149 1.48MB/s危险 TG@jcnode
+  - 🇺🇸美国US0153 1.46MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0154 1.46MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0155 1.44MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0157 1.44MB/s危险 TG@jcnode
+  - 🇺🇸美国US0161 1.38MB/s TG@jcnode
+  - 🇺🇸美国US0162 1.37MB/s危险 TG@jcnode
+  - 🇺🇸美国US0163 1.37MB/s危险 TG@jcnode
+  - 🇺🇸美国US0164 1.37MB/s危险 TG@jcnode
+  - 🇺🇸美国US0165 1.34MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0166 1.33MB/s中性 TG@jcnode
+  - 🇺🇸美国US0169 1.31MB/s中性 TG@jcnode
+  - 🇺🇸美国US0172 1.29MB/s TG@jcnode
+  - 🇺🇸美国US0173 1.27MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0175 1.26MB/s TG@jcnode
+  - 🇺🇸美国US0177 1.23MB/s中性 TG@jcnode
+  - 🇺🇸美国US0182 1.18MB/s中性 TG@jcnode
+  - 🇺🇸美国US0184 1.14MB/s中性 TG@jcnode
+  - 🇺🇸美国US0185 1.12MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0186 1.09MB/s危险 TG@jcnode
+  - 🇺🇸美国US0187 1.09MB/s中性 TG@jcnode
+  - 🇺🇸美国US0188 1.05MB/s危险 TG@jcnode
+  - 🇺🇸美国US0189 1.05MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0190 1.04MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0191 1.04MB/s危险 TG@jcnode
+  - 🇺🇸美国US0192 1.02MB/s中性 TG@jcnode
+  - 🇺🇸美国US0196 0.8MB/s中性 TG@jcnode
+  - 🇺🇸美国US0199 0.73MB/s TG@jcnode
+  - 🇺🇸美国US0201 0.68MB/s中性 TG@jcnode
+  - 🇺🇸美国US0202 0.68MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0203 0.68MB/s中性 TG@jcnode
+  - 🇺🇸美国US0204 0.66MB/s中性 TG@jcnode
+  - 🇺🇸美国US0205 0.66MB/s TG@jcnode
+  - 🇺🇸美国US0206 0.65MB/s TG@jcnode
+  - 🇺🇸美国US0208 0.64MB/s TG@jcnode
+  - 🇺🇸美国US0209 0.58MB/s TG@jcnode
+  - 🇺🇸美国US0210 0.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0211 0.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0212 0.52MB/s危险 TG@jcnode
+  - 🇺🇸美国US0213 0.47MB/s TG@jcnode
+  - 🇺🇸美国US0216 测速未知 TG@jcnode
+  - 🇺🇸美国US0238 测速未知 TG@jcnode
+  - 🇺🇸美国US0258 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0261 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0263 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0275 测速未知 TG@jcnode
+  - 🇺🇸美国US0291 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0293 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0294 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0302 测速未知危险 TG@jcnode
+  - 🇺🇸美国US0303 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0323 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0332 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0348 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0354 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0355 测速未知 TG@jcnode
+  - 🇺🇸美国US0359 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0370 测速未知 TG@jcnode
+  - 🇺🇸美国US0374 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0390 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0439 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0462 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0469 测速未知 TG@jcnode
+  - 🇺🇸美国US0471 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0472 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0475 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0483 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0498 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0500 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0524 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0536 测速未知纯净 TG@jcnode
+  - 🇺🇸美国US0554 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0565 测速未知 TG@jcnode
+  - 🇺🇸美国US0566 测速未知 TG@jcnode
+  - 🇺🇸美国US0568 测速未知 TG@jcnode
+  - 🇺🇸美国US0628 测速未知 TG@jcnode
+  - 🇺🇸美国US0636 测速未知 TG@jcnode
+  - 🇺🇸美国US0647 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0649 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0652 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0658 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0660 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0699 测速未知 TG@jcnode
+  - 🇺🇸美国US0720 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0730 测速未知危险 TG@jcnode
+  - 🇺🇸美国US0737 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0781 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0792 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0795 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0819 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0830 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0836 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0859 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0876 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0906 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0932 测速未知危险 TG@jcnode
+  - 🇺🇸美国US0951 测速未知危险 TG@jcnode
+  - 🇺🇸美国US0956 测速未知危险 TG@jcnode
+  - 🇺🇸美国US0969 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1024 测速未知纯净 TG@jcnode
+  - 🇺🇸美国US1025 测速未知中性 TG@jcnode
+  - 🇺🇸美国US1031 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1046 测速未知中性 TG@jcnode
+  - 🇺🇸美国US1060 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1061 测速未知 TG@jcnode
+  - 🇺🇸美国US1064 测速未知 TG@jcnode
+  - 🇺🇸美国US1068 测速未知中性 TG@jcnode
+  - 🇺🇸美国US1081 测速未知 TG@jcnode
+  - 🇺🇸美国US1086 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1094 测速未知中性 TG@jcnode
+  - 🇺🇸美国US1096 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1097 测速未知 TG@jcnode
+  - 🇺🇸美国US1102 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1106 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1116 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1120 测速未知纯净 TG@jcnode
+  - 🇺🇸美国US1123 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1125 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1134 测速未知中性 TG@jcnode
+  - 🇺🇸美国US1137 测速未知中性 TG@jcnode
 - name: 🇺🇸 美国自动
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸美国US001 3.3MB/s TG@jcnode
-  - 🇺🇸美国US002 2.37MB/s TG@jcnode
-  - 🇺🇸美国US003 2.27MB/s TG@jcnode
-  - 🇺🇸美国US004 2.22MB/s TG@jcnode
-  - 🇺🇸美国US005 2.22MB/s纯净 TG@jcnode
-  - 🇺🇸美国US006 2.22MB/s TG@jcnode
-  - 🇺🇸美国US007 2.22MB/s TG@jcnode
-  - 🇺🇸美国US008 2.21MB/s TG@jcnode
-  - 🇺🇸美国US009 2.21MB/s TG@jcnode
-  - 🇺🇸美国US010 2.21MB/s TG@jcnode
-  - 🇺🇸美国US011 2.19MB/s TG@jcnode
-  - 🇺🇸美国US015 2.15MB/s TG@jcnode
-  - 🇺🇸美国US017 2.15MB/s TG@jcnode
-  - 🇺🇸美国US019 2.13MB/s纯净 TG@jcnode
-  - 🇺🇸美国US020 2.12MB/s TG@jcnode
-  - 🇺🇸美国US021 2.12MB/s TG@jcnode
-  - 🇺🇸美国US022 2.12MB/s TG@jcnode
-  - 🇺🇸美国US024 2.11MB/s中性 TG@jcnode
-  - 🇺🇸美国US026 2.11MB/s TG@jcnode
-  - 🇺🇸美国US027 2.11MB/s TG@jcnode
-  - 🇺🇸美国US029 2.09MB/s TG@jcnode
-  - 🇺🇸美国US030 2.09MB/s TG@jcnode
-  - 🇺🇸美国US032 2.09MB/s TG@jcnode
-  - 🇺🇸美国US035 2.06MB/s TG@jcnode
-  - 🇺🇸美国US036 2.04MB/s TG@jcnode
-  - 🇺🇸美国US037 2.03MB/s TG@jcnode
-  - 🇺🇸美国US039 2.03MB/s TG@jcnode
-  - 🇺🇸美国US043 1.99MB/s TG@jcnode
-  - 🇺🇸美国US044 1.99MB/s TG@jcnode
-  - 🇺🇸美国US045 1.99MB/s TG@jcnode
-  - 🇺🇸美国US046 1.99MB/s TG@jcnode
-  - 🇺🇸美国US048 1.98MB/s TG@jcnode
-  - 🇺🇸美国US049 1.98MB/s危险 TG@jcnode
-  - 🇺🇸美国US051 1.95MB/s危险 TG@jcnode
-  - 🇺🇸美国US052 1.95MB/s危险 TG@jcnode
-  - 🇺🇸美国US053 1.94MB/s TG@jcnode
-  - 🇺🇸美国US054 1.94MB/s TG@jcnode
-  - 🇺🇸美国US055 1.94MB/s TG@jcnode
-  - 🇺🇸美国US056 1.93MB/s TG@jcnode
-  - 🇺🇸美国US057 1.93MB/s中性 TG@jcnode
-  - 🇺🇸美国US058 1.92MB/s TG@jcnode
-  - 🇺🇸美国US059 1.9MB/s危险 TG@jcnode
-  - 🇺🇸美国US060 1.89MB/s危险 TG@jcnode
-  - 🇺🇸美国US061 1.88MB/s TG@jcnode
-  - 🇺🇸美国US062 1.88MB/s TG@jcnode
-  - 🇺🇸美国US064 1.86MB/s TG@jcnode
-  - 🇺🇸美国US065 1.85MB/s危险 TG@jcnode
-  - 🇺🇸美国US068 1.81MB/s危险 TG@jcnode
-  - 🇺🇸美国US069 1.8MB/s危险 TG@jcnode
-  - 🇺🇸美国US070 1.8MB/s危险 TG@jcnode
-  - 🇺🇸美国US071 1.8MB/s危险 TG@jcnode
-  - 🇺🇸美国US073 1.78MB/s危险 TG@jcnode
-  - 🇺🇸美国US074 1.77MB/s危险 TG@jcnode
-  - 🇺🇸美国US075 1.77MB/s危险 TG@jcnode
-  - 🇺🇸美国US076 1.77MB/s危险 TG@jcnode
-  - 🇺🇸美国US077 1.77MB/s危险 TG@jcnode
-  - 🇺🇸美国US081 1.72MB/s危险 TG@jcnode
-  - 🇺🇸美国US082 1.72MB/s TG@jcnode
-  - 🇺🇸美国US083 1.72MB/s危险 TG@jcnode
-  - 🇺🇸美国US084 1.71MB/s危险 TG@jcnode
-  - 🇺🇸美国US085 1.71MB/s危险 TG@jcnode
-  - 🇺🇸美国US086 1.71MB/s危险 TG@jcnode
-  - 🇺🇸美国US087 1.71MB/s危险 TG@jcnode
-  - 🇺🇸美国US088 1.71MB/s危险 TG@jcnode
-  - 🇺🇸美国US089 1.71MB/s TG@jcnode
-  - 🇺🇸美国US090 1.7MB/s危险 TG@jcnode
-  - 🇺🇸美国US091 1.69MB/s TG@jcnode
-  - 🇺🇸美国US092 1.69MB/s危险 TG@jcnode
-  - 🇺🇸美国US093 1.69MB/s危险 TG@jcnode
-  - 🇺🇸美国US095 1.69MB/s危险 TG@jcnode
-  - 🇺🇸美国US096 1.68MB/s TG@jcnode
-  - 🇺🇸美国US097 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US098 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US099 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US100 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US102 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US103 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US104 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US105 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US106 1.68MB/s危险 TG@jcnode
-  - 🇺🇸美国US107 1.67MB/s TG@jcnode
-  - 🇺🇸美国US110 1.66MB/s危险 TG@jcnode
-  - 🇺🇸美国US111 1.66MB/s危险 TG@jcnode
-  - 🇺🇸美国US112 1.65MB/s危险 TG@jcnode
-  - 🇺🇸美国US113 1.65MB/s危险 TG@jcnode
-  - 🇺🇸美国US114 1.64MB/s危险 TG@jcnode
-  - 🇺🇸美国US115 1.63MB/s危险 TG@jcnode
-  - 🇺🇸美国US116 1.63MB/s危险 TG@jcnode
-  - 🇺🇸美国US117 1.62MB/s危险 TG@jcnode
-  - 🇺🇸美国US118 1.62MB/s危险 TG@jcnode
-  - 🇺🇸美国US119 1.62MB/s危险 TG@jcnode
-  - 🇺🇸美国US120 1.61MB/s危险 TG@jcnode
-  - 🇺🇸美国US121 1.61MB/s危险 TG@jcnode
-  - 🇺🇸美国US122 1.59MB/s危险 TG@jcnode
-  - 🇺🇸美国US123 1.58MB/s危险 TG@jcnode
-  - 🇺🇸美国US124 1.58MB/s危险 TG@jcnode
-  - 🇺🇸美国US125 1.58MB/s危险 TG@jcnode
-  - 🇺🇸美国US127 1.56MB/s危险 TG@jcnode
-  - 🇺🇸美国US128 1.56MB/s危险 TG@jcnode
-  - 🇺🇸美国US129 1.56MB/s危险 TG@jcnode
-  - 🇺🇸美国US130 1.55MB/s危险 TG@jcnode
-  - 🇺🇸美国US132 1.55MB/s危险 TG@jcnode
-  - 🇺🇸美国US133 1.55MB/s危险 TG@jcnode
-  - 🇺🇸美国US134 1.54MB/s危险 TG@jcnode
-  - 🇺🇸美国US135 1.54MB/s危险 TG@jcnode
-  - 🇺🇸美国US136 1.54MB/s危险 TG@jcnode
-  - 🇺🇸美国US137 1.53MB/s危险 TG@jcnode
-  - 🇺🇸美国US138 1.53MB/s危险 TG@jcnode
-  - 🇺🇸美国US139 1.52MB/s危险 TG@jcnode
-  - 🇺🇸美国US140 1.52MB/s危险 TG@jcnode
-  - 🇺🇸美国US141 1.5MB/s危险 TG@jcnode
-  - 🇺🇸美国US142 1.5MB/s危险 TG@jcnode
-  - 🇺🇸美国US144 1.47MB/s危险 TG@jcnode
-  - 🇺🇸美国US145 1.47MB/s危险 TG@jcnode
-  - 🇺🇸美国US146 1.44MB/s危险 TG@jcnode
-  - 🇺🇸美国US147 1.43MB/s危险 TG@jcnode
-  - 🇺🇸美国US148 1.42MB/s危险 TG@jcnode
-  - 🇺🇸美国US149 1.41MB/s危险 TG@jcnode
-  - 🇺🇸美国US150 1.39MB/s危险 TG@jcnode
-  - 🇺🇸美国US151 1.37MB/s TG@jcnode
-  - 🇺🇸美国US152 1.27MB/s TG@jcnode
-  - 🇺🇸美国US154 1.26MB/s TG@jcnode
-  - 🇺🇸美国US155 1.21MB/s中性 TG@jcnode
-  - 🇺🇸美国US157 1.18MB/s TG@jcnode
-  - 🇺🇸美国US158 1.16MB/s中性 TG@jcnode
-  - 🇺🇸美国US159 1.14MB/s TG@jcnode
-  - 🇺🇸美国US160 1.14MB/s TG@jcnode
-  - 🇺🇸美国US161 1.07MB/s中性 TG@jcnode
-  - 🇺🇸美国US162 1.05MB/s中性 TG@jcnode
-  - 🇺🇸美国US163 1.05MB/s危险 TG@jcnode
-  - 🇺🇸美国US164 0.99MB/s TG@jcnode
-  - 🇺🇸美国US166 0.97MB/s危险 TG@jcnode
-  - 🇺🇸美国US167 0.84MB/s TG@jcnode
-  - 🇺🇸美国US169 0.66MB/s TG@jcnode
-  - 🇺🇸美国US172 0.44MB/s TG@jcnode
-  - 🇺🇸美国US179 测速未知 TG@jcnode
-  - 🇺🇸美国US183 测速未知 TG@jcnode
-  - 🇺🇸美国US184 测速未知 TG@jcnode
-  - 🇺🇸美国US192 测速未知中性 TG@jcnode
-  - 🇺🇸美国US193 测速未知中性 TG@jcnode
-  - 🇺🇸美国US199 测速未知 TG@jcnode
-  - 🇺🇸美国US206 测速未知中性 TG@jcnode
-  - 🇺🇸美国US230 测速未知 TG@jcnode
-  - 🇺🇸美国US232 测速未知 TG@jcnode
-  - 🇺🇸美国US237 测速未知 TG@jcnode
-  - 🇺🇸美国US242 测速未知中性 TG@jcnode
-  - 🇺🇸美国US243 测速未知 TG@jcnode
-  - 🇺🇸美国US249 测速未知危险 TG@jcnode
-  - 🇺🇸美国US256 测速未知中性 TG@jcnode
-  - 🇺🇸美国US257 测速未知中性 TG@jcnode
-  - 🇺🇸美国US262 测速未知 TG@jcnode
-  - 🇺🇸美国US269 测速未知危险 TG@jcnode
-  - 🇺🇸美国US270 测速未知 TG@jcnode
-  - 🇺🇸美国US273 测速未知 TG@jcnode
-  - 🇺🇸美国US274 测速未知 TG@jcnode
-  - 🇺🇸美国US278 测速未知 TG@jcnode
-  - 🇺🇸美国US279 测速未知 TG@jcnode
-  - 🇺🇸美国US285 测速未知中性 TG@jcnode
-  - 🇺🇸美国US290 测速未知 TG@jcnode
-  - 🇺🇸美国US293 测速未知中性 TG@jcnode
-  - 🇺🇸美国US296 测速未知 TG@jcnode
-  - 🇺🇸美国US297 测速未知 TG@jcnode
-  - 🇺🇸美国US302 测速未知中性 TG@jcnode
-  - 🇺🇸美国US303 测速未知中性 TG@jcnode
-  - 🇺🇸美国US306 测速未知中性 TG@jcnode
-  - 🇺🇸美国US307 测速未知 TG@jcnode
-  - 🇺🇸美国US313 测速未知中性 TG@jcnode
-  - 🇺🇸美国US317 测速未知 TG@jcnode
-  - 🇺🇸美国US320 测速未知 TG@jcnode
-  - 🇺🇸美国US321 测速未知 TG@jcnode
-  - 🇺🇸美国US330 测速未知中性 TG@jcnode
-  - 🇺🇸美国US333 测速未知 TG@jcnode
-  - 🇺🇸美国US340 测速未知 TG@jcnode
-  - 🇺🇸美国US357 测速未知中性 TG@jcnode
-  - 🇺🇸美国US358 测速未知中性 TG@jcnode
-  - 🇺🇸美国US361 测速未知 TG@jcnode
-  - 🇺🇸美国US363 测速未知中性 TG@jcnode
-  - 🇺🇸美国US364 测速未知 TG@jcnode
-  - 🇺🇸美国US377 测速未知中性 TG@jcnode
-  - 🇺🇸美国US380 测速未知中性 TG@jcnode
-  - 🇺🇸美国US400 测速未知 TG@jcnode
-  - 🇺🇸美国US411 测速未知中性 TG@jcnode
-  - 🇺🇸美国US418 测速未知 TG@jcnode
-  - 🇺🇸美国US420 测速未知 TG@jcnode
-  - 🇺🇸美国US421 测速未知中性 TG@jcnode
-  - 🇺🇸美国US423 测速未知中性 TG@jcnode
-  - 🇺🇸美国US424 测速未知 TG@jcnode
-  - 🇺🇸美国US426 测速未知中性 TG@jcnode
-  - 🇺🇸美国US428 测速未知中性 TG@jcnode
-  - 🇺🇸美国US439 测速未知中性 TG@jcnode
-  - 🇺🇸美国US442 测速未知 TG@jcnode
-  - 🇺🇸美国US450 测速未知中性 TG@jcnode
-  - 🇺🇸美国US452 测速未知 TG@jcnode
-  - 🇺🇸美国US453 测速未知中性 TG@jcnode
-  - 🇺🇸美国US454 测速未知中性 TG@jcnode
-  - 🇺🇸美国US466 测速未知 TG@jcnode
-  - 🇺🇸美国US469 测速未知中性 TG@jcnode
-  - 🇺🇸美国US471 测速未知中性 TG@jcnode
-  - 🇺🇸美国US472 测速未知 TG@jcnode
-  - 🇺🇸美国US474 测速未知 TG@jcnode
-  - 🇺🇸美国US477 测速未知中性 TG@jcnode
-  - 🇺🇸美国US493 测速未知中性 TG@jcnode
-  - 🇺🇸美国US496 测速未知中性 TG@jcnode
-  - 🇺🇸美国US497 测速未知中性 TG@jcnode
-  - 🇺🇸美国US498 测速未知 TG@jcnode
-  - 🇺🇸美国US500 测速未知中性 TG@jcnode
-  - 🇺🇸美国US505 测速未知中性 TG@jcnode
-  - 🇺🇸美国US509 测速未知危险 TG@jcnode
-  - 🇺🇸美国US510 测速未知 TG@jcnode
-  - 🇺🇸美国US511 测速未知中性 TG@jcnode
-  - 🇺🇸美国US517 测速未知中性 TG@jcnode
-  - 🇺🇸美国US518 测速未知中性 TG@jcnode
-  - 🇺🇸美国US519 测速未知中性 TG@jcnode
-  - 🇺🇸美国US523 测速未知 TG@jcnode
-  - 🇺🇸美国US525 测速未知 TG@jcnode
-  - 🇺🇸美国US527 测速未知中性 TG@jcnode
-  - 🇺🇸美国US531 测速未知 TG@jcnode
-  - 🇺🇸美国US536 测速未知 TG@jcnode
-  - 🇺🇸美国US538 测速未知 TG@jcnode
-  - 🇺🇸美国US540 测速未知 TG@jcnode
-  - 🇺🇸美国US542 测速未知中性 TG@jcnode
-  - 🇺🇸美国US543 测速未知中性 TG@jcnode
-  - 🇺🇸美国US546 测速未知 TG@jcnode
-  - 🇺🇸美国US554 测速未知中性 TG@jcnode
-  - 🇺🇸美国US556 测速未知 TG@jcnode
-  - 🇺🇸美国US557 测速未知 TG@jcnode
-  - 🇺🇸美国US563 测速未知 TG@jcnode
-  - 🇺🇸美国US565 测速未知 TG@jcnode
-  - 🇺🇸美国US574 测速未知中性 TG@jcnode
-  - 🇺🇸美国US575 测速未知中性 TG@jcnode
-  - 🇺🇸美国US576 测速未知 TG@jcnode
-  - 🇺🇸美国US588 测速未知中性 TG@jcnode
-  - 🇺🇸美国US589 测速未知中性 TG@jcnode
-  - 🇺🇸美国US596 测速未知 TG@jcnode
-  - 🇺🇸美国US597 测速未知中性 TG@jcnode
-  - 🇺🇸美国US600 测速未知中性 TG@jcnode
-  - 🇺🇸美国US601 测速未知危险 TG@jcnode
-  - 🇺🇸美国US602 测速未知中性 TG@jcnode
-  - 🇺🇸美国US610 测速未知中性 TG@jcnode
-  - 🇺🇸美国US611 测速未知危险 TG@jcnode
-  - 🇺🇸美国US616 测速未知中性 TG@jcnode
-  - 🇺🇸美国US620 测速未知中性 TG@jcnode
-  - 🇺🇸美国US621 测速未知 TG@jcnode
-  - 🇺🇸美国US622 测速未知 TG@jcnode
-  - 🇺🇸美国US630 测速未知 TG@jcnode
-  - 🇺🇸美国US633 测速未知中性 TG@jcnode
-  - 🇺🇸美国US638 测速未知中性 TG@jcnode
-  - 🇺🇸美国US642 测速未知危险 TG@jcnode
-  - 🇺🇸美国US644 测速未知 TG@jcnode
-  - 🇺🇸美国US648 测速未知 TG@jcnode
-  - 🇺🇸美国US649 测速未知中性 TG@jcnode
-  - 🇺🇸美国US651 测速未知 TG@jcnode
-  - 🇺🇸美国US655 测速未知中性 TG@jcnode
-  - 🇺🇸美国US656 测速未知 TG@jcnode
-  - 🇺🇸美国US660 测速未知中性 TG@jcnode
-  - 🇺🇸美国US661 测速未知中性 TG@jcnode
-  - 🇺🇸美国US663 测速未知危险 TG@jcnode
-  - 🇺🇸美国US666 测速未知中性 TG@jcnode
-  - 🇺🇸美国US675 测速未知 TG@jcnode
-  - 🇺🇸美国US676 测速未知 TG@jcnode
-  - 🇺🇸美国US678 测速未知 TG@jcnode
-  - 🇺🇸美国US681 测速未知 TG@jcnode
-  - 🇺🇸美国US684 测速未知 TG@jcnode
-  - 🇺🇸美国US688 测速未知中性 TG@jcnode
-  - 🇺🇸美国US690 测速未知 TG@jcnode
-  - 🇺🇸美国US692 测速未知 TG@jcnode
-  - 🇺🇸美国US693 测速未知危险 TG@jcnode
-  - 🇺🇸美国US695 测速未知危险 TG@jcnode
-  - 🇺🇸美国US698 测速未知危险 TG@jcnode
-  - 🇺🇸美国US699 测速未知中性 TG@jcnode
-  - 🇺🇸美国US701 测速未知危险 TG@jcnode
-  - 🇺🇸美国US702 测速未知 TG@jcnode
-  - 🇺🇸美国US703 测速未知危险 TG@jcnode
-  - 🇺🇸美国US706 测速未知 TG@jcnode
-  - 🇺🇸美国US708 测速未知 TG@jcnode
-  - 🇺🇸美国US709 测速未知 TG@jcnode
-  - 🇺🇸美国US711 测速未知 TG@jcnode
-  - 🇺🇸美国US723 测速未知 TG@jcnode
-  - 🇺🇸美国US727 测速未知 TG@jcnode
-  - 🇺🇸美国US749 测速未知纯净 TG@jcnode
-  - 🇺🇸美国US753 测速未知中性 TG@jcnode
-  - 🇺🇸美国US754 测速未知中性 TG@jcnode
-  - 🇺🇸美国US758 测速未知 TG@jcnode
+  - 🇺🇸美国US0006 2.24MB/s中性 TG@jcnode
+  - 🇺🇸美国US0008 2.19MB/s TG@jcnode
+  - 🇺🇸美国US0009 2.19MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0010 2.18MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0013 2.13MB/s中性 TG@jcnode
+  - 🇺🇸美国US0015 2.12MB/s TG@jcnode
+  - 🇺🇸美国US0016 2.11MB/s TG@jcnode
+  - 🇺🇸美国US0019 2.08MB/s中性 TG@jcnode
+  - 🇺🇸美国US0020 2.08MB/s中性 TG@jcnode
+  - 🇺🇸美国US0021 2.05MB/s中性 TG@jcnode
+  - 🇺🇸美国US0023 2.05MB/s中性 TG@jcnode
+  - 🇺🇸美国US0024 2.01MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0025 2.01MB/s中性 TG@jcnode
+  - 🇺🇸美国US0027 2MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0030 1.96MB/s TG@jcnode
+  - 🇺🇸美国US0032 1.95MB/s TG@jcnode
+  - 🇺🇸美国US0033 1.95MB/s TG@jcnode
+  - 🇺🇸美国US0034 1.95MB/s中性 TG@jcnode
+  - 🇺🇸美国US0039 1.94MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0042 1.92MB/s中性 TG@jcnode
+  - 🇺🇸美国US0043 1.92MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0044 1.9MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0045 1.89MB/s中性 TG@jcnode
+  - 🇺🇸美国US0047 1.88MB/s中性 TG@jcnode
+  - 🇺🇸美国US0052 1.86MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0054 1.84MB/s危险 TG@jcnode
+  - 🇺🇸美国US0056 1.84MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0057 1.83MB/s TG@jcnode
+  - 🇺🇸美国US0058 1.83MB/s TG@jcnode
+  - 🇺🇸美国US0060 1.81MB/s危险 TG@jcnode
+  - 🇺🇸美国US0062 1.8MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0063 1.79MB/s TG@jcnode
+  - 🇺🇸美国US0064 1.79MB/s危险 TG@jcnode
+  - 🇺🇸美国US0065 1.79MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0066 1.78MB/s危险 TG@jcnode
+  - 🇺🇸美国US0067 1.78MB/s危险 TG@jcnode
+  - 🇺🇸美国US0068 1.77MB/s危险 TG@jcnode
+  - 🇺🇸美国US0070 1.76MB/s TG@jcnode
+  - 🇺🇸美国US0071 1.75MB/s危险 TG@jcnode
+  - 🇺🇸美国US0072 1.75MB/s危险 TG@jcnode
+  - 🇺🇸美国US0073 1.74MB/s危险 TG@jcnode
+  - 🇺🇸美国US0074 1.74MB/s危险 TG@jcnode
+  - 🇺🇸美国US0075 1.74MB/s危险 TG@jcnode
+  - 🇺🇸美国US0077 1.73MB/s危险 TG@jcnode
+  - 🇺🇸美国US0078 1.73MB/s危险 TG@jcnode
+  - 🇺🇸美国US0079 1.73MB/s危险 TG@jcnode
+  - 🇺🇸美国US0080 1.72MB/s危险 TG@jcnode
+  - 🇺🇸美国US0081 1.72MB/s危险 TG@jcnode
+  - 🇺🇸美国US0082 1.72MB/s危险 TG@jcnode
+  - 🇺🇸美国US0083 1.72MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0084 1.72MB/s TG@jcnode
+  - 🇺🇸美国US0085 1.7MB/s危险 TG@jcnode
+  - 🇺🇸美国US0086 1.7MB/s TG@jcnode
+  - 🇺🇸美国US0087 1.7MB/s危险 TG@jcnode
+  - 🇺🇸美国US0088 1.7MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0091 1.68MB/s危险 TG@jcnode
+  - 🇺🇸美国US0093 1.67MB/s危险 TG@jcnode
+  - 🇺🇸美国US0094 1.67MB/s危险 TG@jcnode
+  - 🇺🇸美国US0095 1.67MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0096 1.66MB/s中性 TG@jcnode
+  - 🇺🇸美国US0098 1.65MB/s危险 TG@jcnode
+  - 🇺🇸美国US0100 1.64MB/s TG@jcnode
+  - 🇺🇸美国US0101 1.64MB/s危险 TG@jcnode
+  - 🇺🇸美国US0102 1.64MB/s危险 TG@jcnode
+  - 🇺🇸美国US0105 1.64MB/s危险 TG@jcnode
+  - 🇺🇸美国US0108 1.62MB/s危险 TG@jcnode
+  - 🇺🇸美国US0109 1.62MB/s危险 TG@jcnode
+  - 🇺🇸美国US0111 1.61MB/s危险 TG@jcnode
+  - 🇺🇸美国US0112 1.61MB/s TG@jcnode
+  - 🇺🇸美国US0113 1.61MB/s危险 TG@jcnode
+  - 🇺🇸美国US0115 1.6MB/s TG@jcnode
+  - 🇺🇸美国US0116 1.59MB/s危险 TG@jcnode
+  - 🇺🇸美国US0117 1.58MB/s TG@jcnode
+  - 🇺🇸美国US0118 1.58MB/s危险 TG@jcnode
+  - 🇺🇸美国US0119 1.58MB/s TG@jcnode
+  - 🇺🇸美国US0120 1.58MB/s危险 TG@jcnode
+  - 🇺🇸美国US0121 1.57MB/s危险 TG@jcnode
+  - 🇺🇸美国US0122 1.57MB/s危险 TG@jcnode
+  - 🇺🇸美国US0123 1.57MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0124 1.56MB/s危险 TG@jcnode
+  - 🇺🇸美国US0128 1.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0129 1.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0130 1.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0131 1.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0132 1.55MB/s TG@jcnode
+  - 🇺🇸美国US0133 1.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0134 1.55MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0136 1.54MB/s危险 TG@jcnode
+  - 🇺🇸美国US0137 1.53MB/s危险 TG@jcnode
+  - 🇺🇸美国US0139 1.52MB/s危险 TG@jcnode
+  - 🇺🇸美国US0140 1.52MB/s危险 TG@jcnode
+  - 🇺🇸美国US0141 1.52MB/s危险 TG@jcnode
+  - 🇺🇸美国US0142 1.51MB/s危险 TG@jcnode
+  - 🇺🇸美国US0143 1.51MB/s危险 TG@jcnode
+  - 🇺🇸美国US0144 1.51MB/s危险 TG@jcnode
+  - 🇺🇸美国US0145 1.5MB/s TG@jcnode
+  - 🇺🇸美国US0146 1.5MB/s危险 TG@jcnode
+  - 🇺🇸美国US0147 1.5MB/s危险 TG@jcnode
+  - 🇺🇸美国US0148 1.5MB/s TG@jcnode
+  - 🇺🇸美国US0149 1.48MB/s危险 TG@jcnode
+  - 🇺🇸美国US0153 1.46MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0154 1.46MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0155 1.44MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0157 1.44MB/s危险 TG@jcnode
+  - 🇺🇸美国US0161 1.38MB/s TG@jcnode
+  - 🇺🇸美国US0162 1.37MB/s危险 TG@jcnode
+  - 🇺🇸美国US0163 1.37MB/s危险 TG@jcnode
+  - 🇺🇸美国US0164 1.37MB/s危险 TG@jcnode
+  - 🇺🇸美国US0165 1.34MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0166 1.33MB/s中性 TG@jcnode
+  - 🇺🇸美国US0169 1.31MB/s中性 TG@jcnode
+  - 🇺🇸美国US0172 1.29MB/s TG@jcnode
+  - 🇺🇸美国US0173 1.27MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0175 1.26MB/s TG@jcnode
+  - 🇺🇸美国US0177 1.23MB/s中性 TG@jcnode
+  - 🇺🇸美国US0182 1.18MB/s中性 TG@jcnode
+  - 🇺🇸美国US0184 1.14MB/s中性 TG@jcnode
+  - 🇺🇸美国US0185 1.12MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0186 1.09MB/s危险 TG@jcnode
+  - 🇺🇸美国US0187 1.09MB/s中性 TG@jcnode
+  - 🇺🇸美国US0188 1.05MB/s危险 TG@jcnode
+  - 🇺🇸美国US0189 1.05MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0190 1.04MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0191 1.04MB/s危险 TG@jcnode
+  - 🇺🇸美国US0192 1.02MB/s中性 TG@jcnode
+  - 🇺🇸美国US0196 0.8MB/s中性 TG@jcnode
+  - 🇺🇸美国US0199 0.73MB/s TG@jcnode
+  - 🇺🇸美国US0201 0.68MB/s中性 TG@jcnode
+  - 🇺🇸美国US0202 0.68MB/s纯净 TG@jcnode
+  - 🇺🇸美国US0203 0.68MB/s中性 TG@jcnode
+  - 🇺🇸美国US0204 0.66MB/s中性 TG@jcnode
+  - 🇺🇸美国US0205 0.66MB/s TG@jcnode
+  - 🇺🇸美国US0206 0.65MB/s TG@jcnode
+  - 🇺🇸美国US0208 0.64MB/s TG@jcnode
+  - 🇺🇸美国US0209 0.58MB/s TG@jcnode
+  - 🇺🇸美国US0210 0.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0211 0.55MB/s危险 TG@jcnode
+  - 🇺🇸美国US0212 0.52MB/s危险 TG@jcnode
+  - 🇺🇸美国US0213 0.47MB/s TG@jcnode
+  - 🇺🇸美国US0216 测速未知 TG@jcnode
+  - 🇺🇸美国US0238 测速未知 TG@jcnode
+  - 🇺🇸美国US0258 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0261 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0263 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0275 测速未知 TG@jcnode
+  - 🇺🇸美国US0291 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0293 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0294 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0302 测速未知危险 TG@jcnode
+  - 🇺🇸美国US0303 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0323 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0332 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0348 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0354 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0355 测速未知 TG@jcnode
+  - 🇺🇸美国US0359 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0370 测速未知 TG@jcnode
+  - 🇺🇸美国US0374 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0390 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0439 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0462 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0469 测速未知 TG@jcnode
+  - 🇺🇸美国US0471 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0472 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0475 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0483 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0498 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0500 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0524 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0536 测速未知纯净 TG@jcnode
+  - 🇺🇸美国US0554 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0565 测速未知 TG@jcnode
+  - 🇺🇸美国US0566 测速未知 TG@jcnode
+  - 🇺🇸美国US0568 测速未知 TG@jcnode
+  - 🇺🇸美国US0628 测速未知 TG@jcnode
+  - 🇺🇸美国US0636 测速未知 TG@jcnode
+  - 🇺🇸美国US0647 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0649 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0652 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0658 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0660 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0699 测速未知 TG@jcnode
+  - 🇺🇸美国US0720 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0730 测速未知危险 TG@jcnode
+  - 🇺🇸美国US0737 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0781 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0792 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0795 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0819 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0830 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0836 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0859 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0876 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0906 测速未知中性 TG@jcnode
+  - 🇺🇸美国US0932 测速未知危险 TG@jcnode
+  - 🇺🇸美国US0951 测速未知危险 TG@jcnode
+  - 🇺🇸美国US0956 测速未知危险 TG@jcnode
+  - 🇺🇸美国US0969 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1024 测速未知纯净 TG@jcnode
+  - 🇺🇸美国US1025 测速未知中性 TG@jcnode
+  - 🇺🇸美国US1031 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1046 测速未知中性 TG@jcnode
+  - 🇺🇸美国US1060 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1061 测速未知 TG@jcnode
+  - 🇺🇸美国US1064 测速未知 TG@jcnode
+  - 🇺🇸美国US1068 测速未知中性 TG@jcnode
+  - 🇺🇸美国US1081 测速未知 TG@jcnode
+  - 🇺🇸美国US1086 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1094 测速未知中性 TG@jcnode
+  - 🇺🇸美国US1096 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1097 测速未知 TG@jcnode
+  - 🇺🇸美国US1102 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1106 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1116 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1120 测速未知纯净 TG@jcnode
+  - 🇺🇸美国US1123 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1125 测速未知危险 TG@jcnode
+  - 🇺🇸美国US1134 测速未知中性 TG@jcnode
+  - 🇺🇸美国US1137 测速未知中性 TG@jcnode
 rules:
 - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
